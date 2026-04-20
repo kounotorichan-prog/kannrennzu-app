@@ -177,3 +177,6 @@ for f, t in edges:
 # 出力
 # -------------------
 dot.render('static/kannrennzu', view=False)
+
+import os
+os.environ["PATH"] += os.pathsep + "/usr/bin"
