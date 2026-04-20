@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>カンツク</title>
+
+<style>
+body {
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  background: #F7F7F7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #C2A38C;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.notice {
+  margin-top: 20px;
+  padding: 15px;
+  background: #FFFDF9;
+  border-radius: 15px;
+  border: 1px solid #EADBC8;
+  font-size: 14px;
+  color: #6b5e55;
+}
+
+.notice h3 {
+  margin-top: 0;
+  color: #C2A38C;
+}
+
+.notice ul {
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+}
+
+.notice li {
+  margin-bottom: 6px;
+}
+
+/* カード */
+.form-box {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+/* グリッド */
+.disease-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+/* ボタン風 */
+.disease-item {
+  display: block;
+  padding: 12px;
+  border-radius: 14px;
+  background: #EFE3D5;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.disease-item:hover {
+  background: #e5d4c2;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + span {
+  background: #C2A38C;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  display: block;
+}
+
+/* ボタン */
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: #D8BFAA;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #cbb19c;
+}
+
+/* グラフ */
+.graph {
+  background: #FFFFFF;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.graph img {
+  max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+  <img src="{{ url_for('static', filename='ヘッダー画像.png') }}">
+</div>
+
+<h1>🌿 カンツク</h1>
+<div class="subtitle">関連図つくれるサイト</div>
+
+<div class="form-box">
+
+<!-- ★ 常時表示 -->
+<p class="limit-text">※ 最大3つまで選択できます</p>
+
+<!-- 🔥 ここに移動が正解 -->
+{% if message %}
+<p style="color:red; font-weight:bold; text-align:center;">
+  {{ message }}
+</p>
+{% endif %}
+
+<form method="POST">
+
+<div class="disease-list">
+{% for d in diseases %}
+<label class="disease-item">
+  <input type="checkbox" name="disease" value="{{ d }}">
+  <span>{{ names[d] }}</span>
+</label>
+{% endfor %}
+</div>
+
+<button type="submit">関連図をつくる</button>
+
+</form>
+</div>
+
+<div class="graph">
+{% if image %}
+  <img src="{{ url_for('static', filename=image) }}">
+{% endif %}
+</div>
+
+<div class="notice">
+  <h3>⚠️ 注意事項</h3>
+  <ul>
+    <li>本ツールは学習・整理を目的とした参考図です</li>
+    <li>すべての病態・因果関係を網羅しているものではありません</li>
+    <li>実際の診療判断には使用しないでください</li>
+    <li>複数疾患の組み合わせにより表示内容は変化します</li>
+  </ul>
+</div>
+
+</div>
+
+</body>
+</html>

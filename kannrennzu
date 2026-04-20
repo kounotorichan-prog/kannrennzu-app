@@ -1,0 +1,42 @@
+digraph {
+	margin=0.05 nodesep=0.2 rankdir=TB ranksep=0.3 ratio=fill size="6,8" splines=ortho
+	lung_inflammation [label="肺の炎症" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	fatigue [label="倦怠感" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	hypoxia [label="低酸素" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	ventilation [label="換気低下" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	copd [label=COPD fillcolor="#EFE3D5" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style="rounded,filled"]
+	gas_exchange [label="ガス交換障害" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	tachycardia [label="頻脈" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	hypotension [label="血圧低下" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	spo2 [label="SpO2低下" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	pn [label="肺炎" fillcolor="#EFE3D5" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style="rounded,filled"]
+	delirium [label="せん妄" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	infection [label="細菌感染" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	airway_block [label="気道閉塞" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	dyspnea [label="呼吸困難" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=box style=rounded]
+	patient [label="Aさん" fillcolor="#D8BFAA" fontname="Tsukushi A Round Gothic Bold" fontsize=13 shape=ellipse style=filled]
+	patient -> pn [color="#C2A38C" penwidth=2]
+	patient -> copd [color="#C2A38C" penwidth=2]
+	{
+		rank=same
+		patient
+	}
+	airway_block -> ventilation [arrowsize=0.4 color=gray60 penwidth=1.2]
+	airway_block -> dyspnea [arrowsize=0.4 color=gray60 penwidth=1.2]
+	copd -> ventilation [arrowsize=0.4 color=gray60 penwidth=1.2]
+	copd -> gas_exchange [arrowsize=0.4 color=gray60 penwidth=1.2]
+	copd -> airway_block [arrowsize=0.4 color=gray60 penwidth=1.2]
+	gas_exchange -> hypoxia [arrowsize=0.4 color=gray60 penwidth=1.2]
+	gas_exchange -> spo2 [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypotension -> tachycardia [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypoxia -> dyspnea [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypoxia -> fatigue [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypoxia -> tachycardia [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypoxia -> hypotension [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypoxia -> spo2 [arrowsize=0.4 color=gray60 penwidth=1.2]
+	hypoxia -> delirium [arrowsize=0.4 color=gray60 penwidth=1.2]
+	infection -> delirium [arrowsize=0.4 color=gray60 penwidth=1.2]
+	pn -> infection [arrowsize=0.4 color=gray60 penwidth=1.2]
+	pn -> lung_inflammation [arrowsize=0.4 color=gray60 penwidth=1.2]
+	ventilation -> gas_exchange [arrowsize=0.4 color=gray60 penwidth=1.2]
+}
