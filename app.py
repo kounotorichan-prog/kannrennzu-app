@@ -83,15 +83,8 @@ def index():
         # -------------------
         try:
             subprocess.run(['python3', 'make_graph.py'], check=True)
-        except Exception:
-            return render_template(
-                'index.html',
-                image=None,
-                ts=None,
-                diseases=disease_list,
-                names=name_map,
-                message="グラフ生成に失敗しました"
-            )
+        except Exception as e:
+    return str(e)
 
         # -------------------
         # 成功時
