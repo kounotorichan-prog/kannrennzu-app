@@ -3,6 +3,7 @@ import subprocess
 import csv
 import os
 import time
+import traceback
 
 app = Flask(__name__)
 
@@ -89,8 +90,8 @@ def index():
         try:
             subprocess.run(['python3', 'make_graph.py'], check=True)
 
-        except Exception as e:
-            return str(e)
+        except Exception:
+            return traceback.format_exc()
 
         # -------------------
         # 成功時
