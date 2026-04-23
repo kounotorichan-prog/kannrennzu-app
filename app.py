@@ -36,13 +36,16 @@ def index():
     message = None
 
     if request.method == 'POST':
+
         selected = request.form.getlist('disease')
 
         # -------------------
         # 0個チェック
         # -------------------
         if len(selected) == 0:
+
             message = "少なくとも1つは選択してください"
+
             return render_template(
                 'index.html',
                 image=None,
@@ -56,7 +59,9 @@ def index():
         # 最大数チェック
         # -------------------
         if len(selected) > MAX_SELECTION:
+
             message = f"最大{MAX_SELECTION}個まで選択できます"
+
             return render_template(
                 'index.html',
                 image=None,
@@ -78,13 +83,14 @@ def index():
         if os.path.exists('static/kannrennzu.svg'):
             os.remove('static/kannrennzu.svg')
 
-# -------------------
-# グラフ生成
-# -------------------
-try:
-    subprocess.run(['python3', 'make_graph.py'], check=True)
-except Exception as e:
-    return str(e)
+        # -------------------
+        # グラフ生成
+        # -------------------
+        try:
+            subprocess.run(['python3', 'make_graph.py'], check=True)
+
+        except Exception as e:
+            return str(e)
 
         # -------------------
         # 成功時
@@ -92,13 +98,15 @@ except Exception as e:
         return render_template(
             'index.html',
             image='kannrennzu.svg',
-            ts=int(time.time()),  # キャッシュ回避
+            ts=int(time.time()),
             diseases=disease_list,
             names=name_map,
             message=None
         )
 
+    # -------------------
     # GET（初期表示）
+    # -------------------
     return render_template(
         'index.html',
         image=None,
