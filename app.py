@@ -31,6 +31,10 @@ MAX_SELECTION = 3
 # -------------------
 # 画面
 # -------------------
+@app.route('/googlea4a498c42b8e6bd7.html')
+def google_verify():
+    return app.send_static_file('googlea4a498c42b8e6bd7.html')
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
