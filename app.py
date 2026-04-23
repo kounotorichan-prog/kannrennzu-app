@@ -78,12 +78,13 @@ def index():
         if os.path.exists('static/kannrennzu.svg'):
             os.remove('static/kannrennzu.svg')
 
-        # -------------------
-        # グラフ生成
-        # -------------------
-        try:
-            subprocess.run(['python3', 'make_graph.py'], check=True)
-        except Exception as e:
+# -------------------
+# グラフ生成
+# -------------------
+try:
+    subprocess.run(['python3', 'make_graph.py'], check=True)
+
+except Exception as e:
     return str(e)
 
         # -------------------
