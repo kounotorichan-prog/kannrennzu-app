@@ -88,7 +88,15 @@ def index():
         # グラフ生成
         # -------------------
         try:
-            subprocess.run(['python3', 'make_graph.py'], check=True)
+
+            result = subprocess.run(
+                ['python3', 'make_graph.py'],
+                capture_output=True,
+                text=True
+            )
+
+            if result.returncode != 0:
+                return result.stderr
 
         except Exception:
             return traceback.format_exc()
