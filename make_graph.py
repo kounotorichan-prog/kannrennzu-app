@@ -115,7 +115,7 @@ for n in valid:
             shape='ellipse',
             style='filled',
             fillcolor="#D8BFAA",
-            fontname="Noto Sans CJK JP",
+            fontname="Tsukushi A Round Gothic Bold",
             fontsize="18"
         )
 
@@ -126,7 +126,7 @@ for n in valid:
             shape='box',
             style='rounded,filled',
             fillcolor="#EFE3D5",
-            fontname="Noto Sans CJK JP",
+            fontname="Tsukushi A Round Gothic Bold",
             fontsize="18"
         )
 
@@ -136,7 +136,7 @@ for n in valid:
             nodes[n],
             shape='box',
             style='rounded',
-            fontname="Noto Sans CJK JP",
+            fontname="Tsukushi A Round Gothic Bold",
             fontsize="18"
         )
 
