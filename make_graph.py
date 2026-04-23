@@ -180,3 +180,9 @@ dot.render('static/kannrennzu', view=False)
 
 import os
 os.environ["PATH"] += os.pathsep + "/usr/bin"
+
+FONT = "Tsukushi A Round Gothic Bold"
+
+dot.attr(fontname=FONT)
+dot.attr('node', fontname=FONT)
+dot.attr('edge', fontname=FONT)
