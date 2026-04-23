@@ -3,9 +3,12 @@ services:
     name: kannrennzu-app
     env: python
 
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
+
     buildCommand: |
+      apt-get update && apt-get install -y graphviz
       pip install -r requirements.txt
-      apt-get update
-      apt-get install -y graphviz
 
     startCommand: gunicorn app:app
