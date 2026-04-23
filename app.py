@@ -83,7 +83,6 @@ def index():
 # -------------------
 try:
     subprocess.run(['python3', 'make_graph.py'], check=True)
-
 except Exception as e:
     return str(e)
 
