@@ -1,4 +1,4 @@
 services:
   - type: web
-    name: kannrennzu-app
+    name: kannrennzu-app-docker
     env: docker
