@@ -136,6 +136,30 @@ button:hover {
 .graph img {
   max-width: 100%;
 }
+
+.update-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #FFFDF9;
+  border-radius: 15px;
+  border: 1px solid #EADBC8;
+  font-size: 14px;
+  color: #6b5e55;
+}
+
+.update-box h3 {
+  margin-top: 0;
+  color: #C2A38C;
+}
+
+.update-box ul {
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+}
+
+.update-box li {
+  margin-bottom: 6px;
+}
 </style>
 </head>
 
@@ -144,7 +168,7 @@ button:hover {
 <div class="container">
 
 <div class="logo">
-  <img src="{{ url_for('static', filename='ヘッダー画像.png') }}">
+  <img src="{{ url_for('static', filename='header.png') }}">
 </div>
 
 <h1>🌿 カンツク</h1>
@@ -194,6 +218,13 @@ button:hover {
   </ul>
 </div>
 
+</div>
+
+<div class="update-box">
+  <h3>🆕 更新情報</h3>
+  <ul>
+    <li>2026/04/27　胃がんを追加しました</li>
+  </ul>
 </div>
 
 </body>
