@@ -26,7 +26,8 @@ MAX_DEPTH_MAP = {
     'dm': 4,
     'mi': 4,
     'arrhythmia': 4,
-    'pe': 3
+    'pe': 3,
+    'gastric_cancer': 5
 }
 
 # -------------------
@@ -55,7 +56,7 @@ dot.attr('edge', fontsize='14')
 # ノード読み込み
 # -------------------
 nodes = {}
-with open('nodes.csv', encoding='utf-8') as f:
+with open('dev/nodes_dev.csv', encoding='utf-8') as f:
     for row in csv.DictReader(f):
         nodes[row['node_id']] = row['name']
 
@@ -63,7 +64,7 @@ with open('nodes.csv', encoding='utf-8') as f:
 # エッジ読み込み
 # -------------------
 edges = []
-with open('edges.csv', encoding='utf-8') as f:
+with open('dev/edges_dev.csv', encoding='utf-8') as f:
     for row in csv.DictReader(f):
         edges.append((row['from_node'], row['to_node']))
 

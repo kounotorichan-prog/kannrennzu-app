@@ -8,11 +8,11 @@ import traceback
 app = Flask(__name__)
 
 # -------------------
-# nodes.csv から日本語名取得
+# nodes_dev.csv から日本語名取得
 # -------------------
 name_map = {}
 
-with open('nodes.csv', encoding='utf-8') as f:
+with open('dev/nodes_dev.csv', encoding='utf-8') as f:
     for row in csv.DictReader(f):
         name_map[row['node_id']] = row['name']
 
@@ -94,7 +94,7 @@ def index():
         try:
 
             result = subprocess.run(
-                ['python3', 'make_graph.py'],
+                ['python3', 'make_graph_dev.py'],
                 capture_output=True,
                 text=True
             )
