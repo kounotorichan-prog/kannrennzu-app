@@ -1,6 +1,5 @@
 node_id,name,category,description
 abdominal_pain,腹痛,symptom,腹部の痛み
-abdominal_pain,腹痛,symptom,腹部の痛み
 adl,ADL低下,outcome,日常生活動作の低下
 af,心房細動,disease,心房由来の不整脈
 age_adl,ADL低下,outcome,加齢に伴うADL低下
@@ -21,6 +20,7 @@ angina,狭心症,disease,一過性心筋虚血
 antiprotease↓,抗プロテアーゼ低下,pathology,肺防御機構低下
 anxiety,不安障害,disease,強い不安や緊張状態
 aphasia,失語,symptom,言語機能障害
+appetite_loss,食欲低下,symptoms,食事摂取量低下
 arrhythmia,不整脈,disease,心拍リズム異常
 arthritis,関節炎,disease,関節の炎症
 aspiration,誤嚥,symptom,食物や唾液の気道流入
@@ -30,6 +30,11 @@ atherosclerosis,動脈硬化,pathology,動脈壁の硬化・狭窄
 attention_deficit,注意障害,symptom,集中力低下
 back_pain,腰痛,symptom,腰部の痛み
 back_pain,腰痛,symptom,腰背部の痛み
+bed_rest,臥床,pathology,長時間離床困難
+bed_rest,臥床,pathology,長時間離床困難
+bone_damage,骨損傷,pathology,骨組織損傷
+bone_fragility,骨脆弱化,pathology,骨折しやすい状態
+bone_fragility,骨脆弱化,pathology,骨強度低下
 bone_pain,骨痛,symptom,骨由来の痛み
 bradycardia,徐脈,symptom,心拍数低下
 brain_edema,脳浮腫,pathology,脳組織内の水分増加
@@ -53,7 +58,6 @@ chemo_nausea,化学療法性悪心,symptom,抗がん剤による悪心
 chemo_neutropenia,好中球減少,pathology,感染防御低下
 chemotherapy,化学療法,treatment,抗がん剤治療
 chest_pain,胸痛,symptom,胸部の痛み
-chest_pain,胸痛,symptom,胸部の痛み
 cholecystitis,胆嚢炎,disease,胆嚢の炎症
 cilia↓,線毛機能低下,pathology,気道線毛運動低下
 cirrhosis,肝硬変,disease,慢性的な肝線維化
@@ -76,6 +80,7 @@ dehydration,脱水,pathology,体液不足
 delirium,せん妄,symptom,急性意識混乱
 depression,うつ病,disease,抑うつ状態
 dermatitis,皮膚炎,disease,皮膚の炎症
+disuse,廃用症候群,pathology,活動低下による機能低下
 dka,糖尿病性ケトアシドーシス,disease,インスリン不足による代謝異常
 dm,糖尿病,disease,慢性的高血糖疾患
 dvt,深部静脈血栓症,disease,深部静脈内の血栓形成
@@ -88,9 +93,15 @@ electrolyte,電解質異常,pathology,電解質バランス異常
 encephalopathy,脳症,pathology,脳機能障害
 endocarditis,心内膜炎,disease,心内膜の感染性炎症
 exercise_intolerance,運動耐容能低下,symptom,活動時耐久性低下
+external_rotation,外旋位,symptoms,患肢外旋
 exudate,滲出液貯留,pathology,炎症性液体貯留
+fall,転倒,pathology,外傷性転倒
+fall_risk,転倒リスク,pathology,転倒危険性上昇
 fatigue,倦怠感,symptom,全身倦怠感
+femoral_neck_fracture,大腿骨頸部骨折,disease,大腿骨頸部の骨折
 fever,発熱,symptom,体温上昇
+fracture,骨折,pathology,骨構造の破綻
+gait_disorder,歩行障害,symptoms,歩行困難
 gas_exchange,ガス交換障害,pathology,酸素・二酸化炭素交換障害
 gastric_cancer,胃がん,disease,胃に発生する悪性腫瘍
 gastritis,胃炎,disease,胃粘膜の炎症
@@ -102,6 +113,7 @@ hb,ヘモグロビン低下,test,ヘモグロビン値低下
 heart_block,房室ブロック,pathology,刺激伝導障害
 hepatitis,肝炎,disease,肝臓の炎症
 hf,心不全,disease,心機能低下による循環不全
+hip_pain,股関節痛,symptoms,股関節周囲の疼痛
 htn,高血圧,disease,慢性的血圧上昇
 hyperglycemia,高血糖,pathology,血糖値上昇
 hyperinflation,過膨張,pathology,肺の過膨張
@@ -114,6 +126,7 @@ hypotension,血圧低下,pathology,循環血圧低下
 hypothyroid,甲状腺機能低下症,disease,甲状腺ホルモン低下
 hypoxia,低酸素,pathology,組織酸素不足
 ileus,イレウス,disease,腸管内容物通過障害
+immobility,活動制限,pathology,身体活動制限
 increased_icp,頭蓋内圧亢進,pathology,頭蓋内圧上昇
 infection,感染,pathology,病原体侵入による炎症反応
 inflammation,炎症,pathology,炎症反応
@@ -126,6 +139,7 @@ insulin_def,インスリン作用不足,pathology,インスリン分泌・作用
 ischemia,虚血,pathology,血流不足による酸素供給低下
 ketone,ケトン体増加,pathology,脂肪代謝亢進によるケトン増加
 lactate,乳酸上昇,pathology,組織低酸素による乳酸増加
+leg_shortening,下肢短縮,symptoms,患側下肢短縮
 lipolysis,脂肪分解亢進,pathology,脂肪代謝亢進
 liver_failure,肝不全,pathology,肝機能低下
 lung_inflammation,肺の炎症,pathology,肺組織の炎症
@@ -138,6 +152,9 @@ microvascular_damage,微小血管障害,pathology,微小血管レベルの障害
 migraine,片頭痛,disease,反復性頭痛疾患
 motor_deficit,運動麻痺,symptom,四肢運動障害
 mucus_hyper,粘液分泌亢進,pathology,気道粘液分泌増加
+muscle_atrophy,筋萎縮,pathology,筋量低下
+muscle_atrophy,筋萎縮,pathology,筋量低下
+muscle_weakness,筋力低下,symptoms,筋出力低下
 myocarditis,心筋炎,disease,心筋の炎症
 nausea,悪心,symptom,吐き気
 necrosis,壊死,pathology,組織壊死
@@ -149,6 +166,7 @@ obesity,肥満,disease,過剰脂肪蓄積
 osmotic_diuresis,浸透圧利尿,pathology,高浸透圧による利尿
 osteoporosis,骨粗鬆症,disease,骨密度低下疾患
 oxidative_stress,酸化ストレス,pathology,活性酸素による細胞障害
+pain,疼痛,symptoms,身体的疼痛
 pancreatitis,膵炎,disease,膵臓の炎症
 parkinson,パーキンソン病,disease,神経変性疾患
 patient,Aさん,background,患者情報
