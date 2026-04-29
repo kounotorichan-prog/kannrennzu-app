@@ -22,7 +22,8 @@ with open('dev/nodes_dev.csv', encoding='utf-8') as f:
 disease_list = [
     'pn', 'dm',
     'copd', 'pe', 'mi',
-    'sepsis', 'stroke', 'arrhythmia', 'gastric_cancer', 'femoral_neck_fracture'
+    'sepsis', 'stroke', 'arrhythmia', 'gastric_cancer', 'femoral_neck_fracture',
+    'hf'
 ]
 
 # 最大選択数
