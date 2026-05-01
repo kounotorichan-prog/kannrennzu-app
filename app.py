@@ -23,7 +23,7 @@ disease_list = [
     'pn', 'dm',
     'copd', 'pe', 'mi',
     'sepsis', 'stroke', 'arrhythmia', 'gastric_cancer', 'femoral_neck_fracture',
-    'hf'
+    'hf', 'atelectasis', 'lung_cancer'
 ]
 
 # 最大選択数

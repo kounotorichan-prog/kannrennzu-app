@@ -12,14 +12,15 @@ with open('selected.txt') as f:
 # -------------------
 disease_list = [
     'pn', 'dm', 'copd', 'pe', 'mi',
-    'sepsis', 'stroke', 'arrhythmia', 'gastric_cancer', 'femoral_neck_fracture'
+    'sepsis', 'stroke', 'arrhythmia', 'gastric_cancer', 'femoral_neck_fracture',
+    'hf', 'atelectasis', 'lung_cancer'
 ]
 
 # -------------------
 # 疾患ごとの深さ（ここが今回の核心🔥）
 # -------------------
 MAX_DEPTH_MAP = {
-    'stroke': 6,      # ←長いから深く
+    'stroke': 6, 
     'sepsis': 4,
     'copd': 4,
     'pn': 4,
@@ -28,7 +29,9 @@ MAX_DEPTH_MAP = {
     'arrhythmia': 4,
     'pe': 3,
     'gastric_cancer': 5,
-    'femoral_neck_fracture': 5
+    'femoral_neck_fracture': 5,
+    'atelectasis': 5,
+    'lung_cancer': 6
 }
 
 # -------------------
@@ -70,6 +73,27 @@ with open('dev/edges_dev.csv', encoding='utf-8') as f:
         edges.append((row['from_node'], row['to_node']))
 
 # -------------------
+# 疾患限定edge
+# -------------------
+SPECIAL_EDGES = {
+    'atelectasis': [
+        ('secretion_retention', 'atelectasis'),
+        ('airway_obstruction', 'atelectasis'),
+        ('alveolar_collapse', 'atelectasis'),
+    ]
+}
+
+special_edge_set = set()
+
+for disease, special in SPECIAL_EDGES.items():
+
+    if disease in selected:
+
+        edges.extend(special)
+
+        special_edge_set.update(special)
+
+# -------------------
 # ★ 対象ノード（疾患ごと展開）
 # -------------------
 valid = set()
@@ -83,8 +107,10 @@ for disease in selected:
     for _ in range(depth):
         next_frontier = set()
 
+        # 通常探索
         for f, t in edges:
             if f in frontier:
+
                 # 他疾患に飛ばない
                 if t in disease_list and t != disease:
                     continue
@@ -92,6 +118,13 @@ for disease in selected:
                 if t not in visited:
                     visited.add(t)
                     next_frontier.add(t)
+
+        # SPECIAL_EDGESだけ逆探索
+        for f, t in special_edge_set:
+            if t in frontier:
+                if f not in visited:
+                    visited.add(f)
+                    next_frontier.add(f)
 
         if not next_frontier:
             break
@@ -102,6 +135,11 @@ for disease in selected:
 
 # patient追加
 valid.add('patient')
+
+# 疾患限定edge追加
+for disease, special in SPECIAL_EDGES.items():
+    if disease in selected:
+        edges.extend(special)
 
 # -------------------
 # ノード描画
