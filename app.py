@@ -20,10 +20,9 @@ with open('nodes.csv', encoding='utf-8') as f:
 # 表示する疾患
 # -------------------
 disease_list = [
-    'pn', 'dm',
-    'copd', 'pe', 'mi',
-    'sepsis', 'stroke', 'arrhythmia', 'gastric_cancer', 'femoral_neck_fracture',
-    'hf', 'atelectasis', 'lung_cancer'
+   'pn', 'atelectasis', 'lung_cancer', 'copd', 'pe', 'mi', 'hf', 
+   'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
+   'femoral_neck_fracture', 'dm'
 ]
 
 # 最大選択数
