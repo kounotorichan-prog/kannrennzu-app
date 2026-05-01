@@ -20,7 +20,7 @@ disease_list = [
 # 疾患ごとの深さ（ここが今回の核心🔥）
 # -------------------
 MAX_DEPTH_MAP = {
-    'stroke': 6,      # ←長いから深く
+    'stroke': 6, 
     'sepsis': 4,
     'copd': 4,
     'pn': 4,
@@ -28,8 +28,10 @@ MAX_DEPTH_MAP = {
     'mi': 4,
     'arrhythmia': 4,
     'pe': 3,
+    'gastric_cancer': 5,
     'femoral_neck_fracture': 5,
-    'hf': 5
+    'atelectasis': 5,
+    'lung_cancer': 6
 }
 
 # -------------------
@@ -87,8 +89,6 @@ for disease, special in SPECIAL_EDGES.items():
 
     if disease in selected:
 
-        edges.extend(special)
-
         special_edge_set.update(special)
 
 # -------------------
@@ -117,17 +117,28 @@ for disease in selected:
                     visited.add(t)
                     next_frontier.add(t)
 
-        # SPECIAL_EDGESだけ逆探索
-        for f, t in special_edge_set:
-            if t in frontier:
-                if f not in visited:
-                    visited.add(f)
-                    next_frontier.add(f)
-
         if not next_frontier:
             break
 
         frontier = next_frontier
+
+    
+    special_frontier = {disease}
+
+    for _ in range(depth):
+        next_special = set()
+
+        for f, t in special_edge_set:
+            if t in special_frontier:
+                if f not in visited:
+                    visited.add(f)
+                    next_special.add(f)
+
+        if not next_special:
+            break
+
+        special_frontier = next_special
+
 
     valid |= visited
 
