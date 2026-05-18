@@ -13,7 +13,7 @@ with open('selected.txt') as f:
 disease_list = [
     'pn', 'atelectasis', 'lung_cancer', 'copd', 'pe', 'mi', 'hf', 
     'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
-    'femoral_neck_fracture', 'dm', 'liver_cirrhosis'
+    'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease'
 ]
 
 # -------------------
@@ -31,7 +31,9 @@ MAX_DEPTH_MAP = {
     'gastric_cancer': 5,
     'femoral_neck_fracture': 5,
     'atelectasis': 5,
-    'lung_cancer': 6
+    'lung_cancer': 6,
+    'liver_cirrhosis': 8,
+    'chronic_kidney_disease': 7
 }
 
 # -------------------
