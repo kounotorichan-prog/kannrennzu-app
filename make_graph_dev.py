@@ -13,7 +13,7 @@ with open('selected.txt') as f:
 disease_list = [
     'pn', 'atelectasis', 'lung_cancer', 'copd', 'pe', 'mi', 'hf', 
     'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
-    'femoral_neck_fracture', 'dm'
+    'femoral_neck_fracture', 'dm', 'liver_cirrhosis'
 ]
 
 # -------------------
