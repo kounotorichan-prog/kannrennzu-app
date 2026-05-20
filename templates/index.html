@@ -100,9 +100,16 @@ input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"]:checked + span {
+input[type="checkbox"]:checked + .disease-label {
+  background: #B08968;
   color: white;
   display: block;
+  border-radius: 12px;
+  padding: 10px;
+  transform: scale(1.03);
+  box-shadow:
+    0 6px 14px rgba(0,0,0,0.15);
+  transition: 0.2s;
 }
 
 /* ボタン */
@@ -213,6 +220,11 @@ details summary::-webkit-details-marker {
 details[open] .category-title {
   background: #EFE3D5;
 
+.disease-label {
+  display: block;
+  transition: 0.2s;
+}
+
 </style>
 </head>
 
@@ -257,13 +269,16 @@ details[open] .category-title {
 
     {% for d in ds %}
 
-    <label class="disease-item">
-      <input type="checkbox"
-             name="disease"
-             value="{{ d }}">
+<label class="disease-item">
+  <input type="checkbox"
+         name="disease"
+         value="{{ d }}">
 
-      <span>{{ names[d] }}</span>
-    </label>
+  <span class="disease-label">
+    {{ names[d] }}
+  </span>
+
+</label>
 
     {% endfor %}
 
