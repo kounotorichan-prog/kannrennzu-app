@@ -74,26 +74,30 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* 疾患ボタン */
+/* 疾患カード */
 .disease-item {
   display: block;
-  padding: 12px;
-  border-radius: 14px;
-  background: #EFE3D5;
-  text-align: center;
   cursor: pointer;
+}
+
+.disease-label {
+
+  display: block;
+
+  padding: 12px;
+
+  border-radius: 14px;
+
+  background: #EFE3D5;
+
+  text-align: center;
+
   transition: 0.2s;
 }
 
-.disease-item:hover {
+.disease-label:hover {
   background: #e5d4c2;
-}
-
-.disease-item:has(input:checked) {
-  background: #B08968;
-  transform: translateY(-2px);
-  box-shadow:
-    0 6px 14px rgba(0,0,0,0.15);
+  transform: translateY(-1px);
 }
 
 input[type="checkbox"] {
@@ -101,15 +105,15 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .disease-label {
+
   background: #B08968;
+
   color: white;
-  display: block;
-  border-radius: 12px;
-  padding: 10px;
+
   transform: scale(1.03);
+
   box-shadow:
     0 6px 14px rgba(0,0,0,0.15);
-  transition: 0.2s;
 }
 
 /* ボタン */
@@ -123,6 +127,7 @@ button {
   color: white;
   font-size: 18px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 button:hover {
@@ -142,6 +147,17 @@ button:hover {
   max-width: 100%;
 }
 
+/* お知らせ */
+.notice {
+  margin-top: 20px;
+  padding: 15px;
+  background: #FFFDF9;
+  border-radius: 15px;
+  border: 1px solid #EADBC8;
+  font-size: 14px;
+  color: #6b5e55;
+}
+
 .update-box {
   margin-top: 20px;
   padding: 15px;
@@ -152,18 +168,10 @@ button:hover {
   color: #6b5e55;
 }
 
-.update-box h3 {
+.update-box h3,
+.notice h3 {
   margin-top: 0;
   color: #C2A38C;
-}
-
-.update-box ul {
-  padding-left: 20px;
-  margin: 10px 0 0 0;
-}
-
-.update-box li {
-  margin-bottom: 6px;
 }
 
 /* 選択表示 */
@@ -190,7 +198,6 @@ button:hover {
   margin-bottom: 12px;
   padding: 10px 14px;
   border-radius: 12px;
-
   transition: 0.2s;
 }
 
@@ -198,7 +205,12 @@ button:hover {
   background: #F3E8DC;
 }
 
+details[open] .category-title {
+  background: #EFE3D5;
+}
+
 .category-content {
+
   margin-top: 12px;
 
   display: grid;
@@ -215,14 +227,6 @@ details summary {
 
 details summary::-webkit-details-marker {
   display: none;
-}
-
-details[open] .category-title {
-  background: #EFE3D5;
-
-.disease-label {
-  display: block;
-  transition: 0.2s;
 }
 
 </style>
@@ -269,16 +273,17 @@ details[open] .category-title {
 
     {% for d in ds %}
 
-<label class="disease-item">
-  <input type="checkbox"
-         name="disease"
-         value="{{ d }}">
+    <label class="disease-item">
 
-  <span class="disease-label">
-    {{ names[d] }}
-  </span>
+      <input type="checkbox"
+             name="disease"
+             value="{{ d }}">
 
-</label>
+      <span class="disease-label">
+        {{ names[d] }}
+      </span>
+
+    </label>
 
     {% endfor %}
 
