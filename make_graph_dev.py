@@ -13,7 +13,9 @@ with open('selected.txt') as f:
 disease_list = [
     'pn', 'atelectasis', 'lung_cancer', 'copd', 'pe', 'mi', 'hf', 
     'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
-    'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease'
+    'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease', 
+    'ileus', 'prostate_cancer', 'parkinsons_disease', 'leukemia', 'schizophrenia',
+    'kawasaki_disease', 'pregnancy_induced_hypertension'
 ]
 
 # -------------------
@@ -23,17 +25,24 @@ MAX_DEPTH_MAP = {
     'stroke': 6, 
     'sepsis': 4,
     'copd': 4,
-    'pn': 4,
+    'pn': 7,
     'dm': 4,
     'mi': 4,
     'arrhythmia': 4,
     'pe': 3,
     'gastric_cancer': 5,
     'femoral_neck_fracture': 5,
-    'atelectasis': 5,
+    'atelectasis': 8,
     'lung_cancer': 6,
     'liver_cirrhosis': 8,
-    'chronic_kidney_disease': 7
+    'chronic_kidney_disease': 7,
+    'ileus': 7,
+    'prostate_cancer': 8,
+    'parkinsons_disease': 8,
+    'leukemia': 6,
+    'schizophrenia': 6,
+    'kawasaki_disease': 7,
+    'pregnancy_induced_hypertension': 8
 }
 
 # -------------------
@@ -42,12 +51,13 @@ MAX_DEPTH_MAP = {
 dot = Digraph(format='svg')
 
 dot.attr(
-    rankdir='LR',      # ←横方向
+    rankdir='LR',
     splines='ortho',
-    size="16,10!",     # ←横長固定
-    nodesep="0.6",
-    ranksep="0.5",
-    margin="0.1"
+    size="11.7,8.3!",   # A4横
+    ratio="fill",
+    nodesep="0.25",
+    ranksep="0.35",
+    margin="0.05"
 )
 
 dot.attr('node',
@@ -58,13 +68,19 @@ dot.attr('node',
 
 dot.attr('edge', fontsize='14')
 
+dot.attr(overlap='false')
+
 # -------------------
 # ノード読み込み
 # -------------------
 nodes = {}
 with open('dev/nodes_dev.csv', encoding='utf-8') as f:
     for row in csv.DictReader(f):
-        nodes[row['node_id']] = row['name']
+        nodes[row['node_id']] = {
+         'name': row['name'],
+         'category': row['category'],
+         'merge_key': row.get('description', '').strip()
+}
 
 # -------------------
 # エッジ読み込み
@@ -90,8 +106,6 @@ special_edge_set = set()
 for disease, special in SPECIAL_EDGES.items():
 
     if disease in selected:
-
-        edges.extend(special)
 
         special_edge_set.update(special)
 
@@ -121,39 +135,70 @@ for disease in selected:
                     visited.add(t)
                     next_frontier.add(t)
 
-        # SPECIAL_EDGESだけ逆探索
-        for f, t in special_edge_set:
-            if t in frontier:
-                if f not in visited:
-                    visited.add(f)
-                    next_frontier.add(f)
-
         if not next_frontier:
             break
 
         frontier = next_frontier
+
+    
+    special_frontier = {disease}
+
+    for _ in range(depth):
+        next_special = set()
+
+        for f, t in special_edge_set:
+            if t in special_frontier:
+                if f not in visited:
+                    visited.add(f)
+                    next_special.add(f)
+
+        if not next_special:
+            break
+
+        special_frontier = next_special
+
 
     valid |= visited
 
 # patient追加
 valid.add('patient')
 
-# 疾患限定edge追加
-for disease, special in SPECIAL_EDGES.items():
-    if disease in selected:
-        edges.extend(special)
+def get_render_node(node_id):
+
+    merge_key = nodes[node_id].get('merge_key')
+
+    # mergeなし
+    if not merge_key:
+        return node_id
+
+    # 同merge_keyの最初のnodeを代表にする
+    for nid, data in nodes.items():
+        if data.get('merge_key') == merge_key:
+            return nid
+
+    return node_id
 
 # -------------------
 # ノード描画
 # -------------------
+rendered = set()
+
 for n in valid:
+
+    render_id = get_render_node(n)
+
+    if render_id in rendered:
+        continue
+
+    rendered.add(render_id)
+
     if n not in nodes:
         continue
 
     if n == 'patient':
         dot.node(
-            n,
-            nodes[n],
+            render_id,
+            nodes[n]['name'],
             shape='ellipse',
             style='filled',
             fillcolor="#D8BFAA",
@@ -163,8 +208,8 @@ for n in valid:
 
     elif n in selected:
         dot.node(
-            n,
-            nodes[n],
+            render_id,
+            nodes[n]['name'],
             shape='box',
             style='rounded,filled',
             fillcolor="#EFE3D5",
@@ -174,8 +219,8 @@ for n in valid:
 
     else:
         dot.node(
-            n,
-            nodes[n],
+            render_id,
+            nodes[n]['name'],
             shape='box',
             style='rounded',
             fontname="Tsukushi A Round Gothic Bold",
@@ -203,12 +248,15 @@ seen = set()
 
 for f, t in edges:
     if f in valid and t in valid:
-        edge = (f, t)
+        f_render = get_render_node(f)
+        t_render = get_render_node(t)
+        
+        edge = (f_render, t_render)
 
         if edge not in seen:
             dot.edge(
-                f,
-                t,
+                f_render,
+                t_render,
                 arrowsize="1.5",
                 penwidth="1.4",
                 color="gray50"

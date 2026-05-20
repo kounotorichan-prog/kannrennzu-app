@@ -22,8 +22,24 @@ with open('nodes.csv', encoding='utf-8') as f:
 disease_list = [
    'pn', 'atelectasis', 'lung_cancer', 'copd', 'pe', 'mi', 'hf', 
    'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
-   'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease'
+   'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease',
+   'ileus', 'prostate_cancer', 'parkinsons_disease', 'leukemia', 'schizophrenia',
+    'kawasaki_disease'
 ]
+
+categories = {
+    "🫀 循環器": ["hf", "mi", "arrhythmia"],
+    "🫁 呼吸器": ["pn", "copd", "atelectasis", "lung_cancer", "pe"],
+    "🍽 消化器": ["gastric_cancer", "colon_cancer", "ileus", "liver_cirrhosis"],
+    "🩺 腎・代謝": ["dm", "chronic_kidney_disease"],
+    "🧠 神経": ["stroke", "parkinsons_disease"],
+    "🩸 血液": ["leukemia"],
+    "💭 精神": ["schizophrenia"],
+    "👶 小児": ["kawasaki_disease"],
+    "🤰 母性": ["pregnancy_induced_hypertension"],
+    "🦴 整形": ["femoral_neck_fracture"],
+    "🚻 泌尿器": ["prostate_cancer"]
+}
 
 # 最大選択数
 MAX_SELECTION = 3
@@ -57,7 +73,8 @@ def index():
                 ts=None,
                 diseases=disease_list,
                 names=name_map,
-                message=message
+                message=message,
+                categories=categories
             )
 
         # -------------------
@@ -73,7 +90,8 @@ def index():
                 ts=None,
                 diseases=disease_list,
                 names=name_map,
-                message=message
+                message=message,
+                categories=categories
             )
 
         # -------------------
@@ -114,7 +132,8 @@ def index():
             ts=int(time.time()),
             diseases=disease_list,
             names=name_map,
-            message=None
+            message=None,
+            categories=categories
         )
 
     # -------------------
@@ -126,7 +145,8 @@ def index():
         ts=None,
         diseases=disease_list,
         names=name_map,
-        message=None
+        message=None,
+        categories=categories
     )
 
 # -------------------

@@ -2,10 +2,11 @@
 <html lang="ja">
 <head>
   <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
-<meta charset="UTF-8">
-<title>カンツク</title>
+  <meta charset="UTF-8">
+  <title>カンツク</title>
 
 <style>
+
 body {
   font-family: "Hiragino Maru Gothic ProN", sans-serif;
   background: #F7F7F7;
@@ -73,14 +74,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* グリッド */
-.disease-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 12px;
-}
-
-/* ボタン風 */
+/* 疾患ボタン */
 .disease-item {
   display: block;
   padding: 12px;
@@ -160,6 +154,58 @@ button:hover {
 .update-box li {
   margin-bottom: 6px;
 }
+
+/* 選択表示 */
+.selected-display {
+  margin-bottom: 15px;
+  padding: 10px 14px;
+  background: #FFFDF9;
+  border-radius: 12px;
+  border: 1px solid #EADBC8;
+  color: #8D6E63;
+  font-size: 15px;
+}
+
+/* カテゴリ */
+.category-box {
+  margin-bottom: 18px;
+}
+
+.category-title {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  color: #8D6E63;
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  border-radius: 12px;
+
+  transition: 0.2s;
+}
+
+.category-title:hover {
+  background: #EFE3D5;
+}
+
+.category-content {
+  margin-top: 12px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fill, minmax(130px, 1fr));
+
+  gap: 12px;
+}
+
+details summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
 </style>
 </head>
 
@@ -176,60 +222,133 @@ button:hover {
 
 <div class="form-box">
 
-<!-- ★ 常時表示 -->
-<p class="limit-text">※ 最大3つまで選択できます</p>
+<p class="limit-text">
+  ※ 最大3つまで選択できます
+</p>
 
-<!-- 🔥 ここに移動が正解 -->
 {% if message %}
 <p style="color:red; font-weight:bold; text-align:center;">
   {{ message }}
 </p>
 {% endif %}
 
-<form method="POST">
-
-<div class="disease-list">
-{% for d in diseases %}
-<label class="disease-item">
-  <input type="checkbox" name="disease" value="{{ d }}">
-  <span>{{ names[d] }}</span>
-</label>
-{% endfor %}
+<div id="selected-display" class="selected-display">
+  選択中：なし
 </div>
 
-<button type="submit">関連図をつくる</button>
+<form method="POST">
+
+{% for category, ds in categories.items() %}
+
+<details class="category-box">
+
+  <summary class="category-title">
+    {{ category }}
+  </summary>
+
+  <div class="category-content">
+
+    {% for d in ds %}
+
+    <label class="disease-item">
+      <input type="checkbox"
+             name="disease"
+             value="{{ d }}">
+
+      <span>{{ names[d] }}</span>
+    </label>
+
+    {% endfor %}
+
+  </div>
+
+</details>
+
+{% endfor %}
+
+<button type="submit">
+  関連図をつくる
+</button>
 
 </form>
+
 </div>
 
 <div class="graph">
+
 {% if image %}
   <img src="{{ url_for('static', filename=image) }}">
 {% endif %}
+
 </div>
 
 <div class="notice">
+
   <h3>⚠️ 注意事項</h3>
+
   <ul>
     <li>本ツールは学習・整理を目的とした参考図です</li>
     <li>すべての病態・因果関係を網羅しているものではありません</li>
     <li>実際の診療判断には使用しないでください</li>
     <li>複数疾患の組み合わせにより表示内容は変化します</li>
   </ul>
+
 </div>
 
 </div>
 
 <div class="update-box">
+
   <h3>🆕 更新情報</h3>
+
   <ul>
     <li>2026/04/27　胃がんを追加しました</li>
     <li>2026/04/28　大腿骨頸部骨折を追加しました</li>
     <li>2026/04/29　心不全を追加しました</li>
     <li>2026/05/01　無気肺、肺がん、大腸がんを追加しました</li>
     <li>2026/05/18　肝硬変、腎不全を追加しました</li>
+    <li>2026/05/19　イレウス、前立腺がん、パーキンソン病、白血病、統合失調症、川崎病を追加しました</li>
   </ul>
+
 </div>
+
+<script>
+
+const checkboxes =
+  document.querySelectorAll('input[type="checkbox"]');
+
+const display =
+  document.getElementById('selected-display');
+
+function updateSelected() {
+
+  const selected = [];
+
+  checkboxes.forEach(cb => {
+
+    if (cb.checked) {
+      selected.push(cb.nextElementSibling.innerText);
+    }
+
+  });
+
+  if (selected.length === 0) {
+
+    display.innerText = "選択中：なし";
+
+  } else {
+
+    display.innerText =
+      "選択中：" + selected.join("・");
+
+  }
+}
+
+checkboxes.forEach(cb => {
+  cb.addEventListener('change', updateSelected);
+});
+
+</script>
 
 </body>
 </html>
