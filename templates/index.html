@@ -81,17 +81,11 @@ h1 {
 }
 
 .disease-label {
-
   display: block;
-
   padding: 12px;
-
   border-radius: 14px;
-
   background: #EFE3D5;
-
   text-align: center;
-
   transition: 0.2s;
 }
 
@@ -105,15 +99,13 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked + .disease-label {
-
-  background: #B08968;
-
+  background: #7B2D26;
   color: white;
-
-  transform: scale(1.03);
-
+  transform: scale(1.08);
+  border:
+    3px solid #FFD166;
   box-shadow:
-    0 6px 14px rgba(0,0,0,0.15);
+    0 10px 20px rgba(0,0,0,0.25);
 }
 
 /* ボタン */
@@ -210,14 +202,10 @@ details[open] .category-title {
 }
 
 .category-content {
-
   margin-top: 12px;
-
   display: grid;
-
   grid-template-columns:
     repeat(auto-fill, minmax(130px, 1fr));
-
   gap: 12px;
 }
 
