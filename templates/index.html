@@ -89,20 +89,20 @@ h1 {
   background: #e5d4c2;
 }
 
+.disease-item:has(input:checked) {
+  background: #B08968;
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 14px rgba(0,0,0,0.15);
+}
+
 input[type="checkbox"] {
   display: none;
 }
 
 input[type="checkbox"]:checked + span {
-  background: #B08968;
   color: white;
-  padding: 10px;
-  border-radius: 12px;
   display: block;
-  box-shadow:
-    0 4px 10px rgba(0,0,0,0.12);
-  transform: scale(1.03);
-  transition: 0.2s;
 }
 
 /* ボタン */
