@@ -73,7 +73,7 @@ dot.attr(overlap='false')
 # ノード読み込み
 # -------------------
 nodes = {}
-with open('nodes_dev.csv', encoding='utf-8') as f:
+with open('nodes.csv', encoding='utf-8') as f:
     for row in csv.DictReader(f):
         nodes[row['node_id']] = {
          'name': row['name'],
