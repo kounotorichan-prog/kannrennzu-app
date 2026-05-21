@@ -22,14 +22,15 @@ body {
 h1 {
   text-align: center;
   color: #C2A38C;
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 5px;
 }
 
 .subtitle {
   text-align: center;
   color: #777;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  font-size: 15px;
 }
 
 .logo {
@@ -41,172 +42,105 @@ h1 {
   width: 250px;
 }
 
-.notice {
-  margin-top: 20px;
-  padding: 15px;
-  background: #FFFDF9;
-  border-radius: 15px;
-  border: 1px solid #EADBC8;
-  font-size: 14px;
-  color: #6b5e55;
-}
+/* フォーム全体 */
 
-.notice h3 {
-  margin-top: 0;
-  color: #C2A38C;
-}
-
-.notice ul {
-  padding-left: 20px;
-  margin: 10px 0 0 0;
-}
-
-.notice li {
-  margin-bottom: 6px;
-}
-
-/* カード */
 .form-box {
   background: #FFFFFF;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-  margin-bottom: 20px;
-}
-
-/* 疾患カード */
-.disease-item {
-  display: block;
-  cursor: pointer;
-}
-
-.disease-label {
-  display: block;
-  padding: 12px;
-  border-radius: 14px;
-  background: #EFE3D5;
-  text-align: center;
-  transition: 0.2s;
-}
-
-.disease-label:hover {
-  background: #e5d4c2;
-  transform: translateY(-1px);
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"]:checked + .disease-label {
-  background: #7B2D26;
-  color: white;
-  transform: scale(1.08);
-  border:
-    3px solid #FFD166;
+  padding: 24px;
+  border-radius: 24px;
   box-shadow:
-    0 10px 20px rgba(0,0,0,0.25);
+    0 8px 24px rgba(0,0,0,0.05);
+
+  margin-bottom: 24px;
 }
 
-/* ボタン */
-button {
-  width: 100%;
-  margin-top: 20px;
-  padding: 14px;
-  border: none;
-  border-radius: 14px;
-  background: #D8BFAA;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
-  transition: 0.2s;
-}
+/* 注意 */
 
-button:hover {
-  background: #cbb19c;
-}
-
-/* グラフ */
-.graph {
-  background: #FFFFFF;
-  padding: 15px;
-  border-radius: 20px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-  text-align: center;
-}
-
-.graph img {
-  max-width: 100%;
-}
-
-/* お知らせ */
-.notice {
-  margin-top: 20px;
-  padding: 15px;
-  background: #FFFDF9;
-  border-radius: 15px;
-  border: 1px solid #EADBC8;
+.limit-text {
+  color: #8D6E63;
+  margin-bottom: 16px;
   font-size: 14px;
-  color: #6b5e55;
-}
-
-.update-box {
-  margin-top: 20px;
-  padding: 15px;
-  background: #FFFDF9;
-  border-radius: 15px;
-  border: 1px solid #EADBC8;
-  font-size: 14px;
-  color: #6b5e55;
-}
-
-.update-box h3,
-.notice h3 {
-  margin-top: 0;
-  color: #C2A38C;
 }
 
 /* 選択表示 */
+
 .selected-display {
-  margin-bottom: 15px;
-  padding: 10px 14px;
+
+  margin-bottom: 24px;
+
+  padding: 14px 18px;
+
   background: #FFFDF9;
-  border-radius: 12px;
+
+  border-radius: 16px;
+
   border: 1px solid #EADBC8;
+
   color: #8D6E63;
+
   font-size: 15px;
+
+  box-shadow:
+    0 3px 10px rgba(0,0,0,0.03);
 }
 
 /* カテゴリ */
+
 .category-box {
   margin-bottom: 18px;
 }
 
 .category-title {
+
   cursor: pointer;
+
   font-size: 20px;
+
   font-weight: bold;
+
   color: #8D6E63;
+
   margin-bottom: 12px;
-  padding: 10px 14px;
-  border-radius: 12px;
+
+  padding: 14px 18px;
+
+  border-radius: 16px;
+
+  background: #FFFDF9;
+
+  border: 1px solid #EADBC8;
+
   transition: 0.2s;
+
+  box-shadow:
+    0 3px 10px rgba(0,0,0,0.03);
 }
 
 .category-title:hover {
-  background: #F3E8DC;
+
+  background: #F8F1E8;
+
+  transform: translateY(-1px);
 }
 
 details[open] .category-title {
+
   background: #EFE3D5;
+
+  box-shadow:
+    0 5px 14px rgba(0,0,0,0.06);
 }
 
 .category-content {
-  margin-top: 12px;
+
+  margin-top: 14px;
+
   display: grid;
+
   grid-template-columns:
     repeat(auto-fill, minmax(130px, 1fr));
-  gap: 12px;
+
+  gap: 14px;
 }
 
 details summary {
@@ -215,6 +149,163 @@ details summary {
 
 details summary::-webkit-details-marker {
   display: none;
+}
+
+/* 疾患カード */
+
+.disease-item {
+  display: block;
+  cursor: pointer;
+}
+
+.disease-label {
+
+  display: block;
+
+  padding: 14px;
+
+  border-radius: 16px;
+
+  background: #EFE3D5;
+
+  text-align: center;
+
+  transition: 0.2s;
+
+  font-size: 14px;
+
+  color: #6b5e55;
+
+  box-shadow:
+    0 2px 8px rgba(0,0,0,0.03);
+}
+
+.disease-label:hover {
+
+  background: #e5d4c2;
+
+  transform: translateY(-2px);
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + .disease-label {
+
+  background: #7B2D26;
+
+  color: white;
+
+  transform: scale(1.05);
+
+  border:
+    3px solid #FFD166;
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.25);
+}
+
+/* ボタン */
+
+button {
+
+  width: 100%;
+
+  margin-top: 30px;
+
+  padding: 18px;
+
+  border: none;
+
+  border-radius: 18px;
+
+  background: linear-gradient(
+    135deg,
+    #D8BFAA,
+    #C2A38C
+  );
+
+  color: white;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  box-shadow:
+    0 6px 16px rgba(194,163,140,0.25);
+}
+
+button:hover {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 20px rgba(194,163,140,0.35);
+}
+
+/* グラフ */
+
+.graph {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 24px;
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.05);
+
+  text-align: center;
+}
+
+.graph img {
+  max-width: 100%;
+}
+
+/* お知らせ */
+
+.notice,
+.update-box {
+
+  margin-top: 24px;
+
+  padding: 18px;
+
+  background: #FFFDF9;
+
+  border-radius: 18px;
+
+  border: 1px solid #EADBC8;
+
+  font-size: 14px;
+
+  color: #6b5e55;
+
+  box-shadow:
+    0 3px 10px rgba(0,0,0,0.03);
+}
+
+.notice h3,
+.update-box h3 {
+
+  margin-top: 0;
+
+  color: #C2A38C;
+}
+
+.notice ul,
+.update-box ul {
+
+  padding-left: 20px;
+}
+
+.notice li,
+.update-box li {
+
+  margin-bottom: 8px;
 }
 
 </style>
@@ -229,7 +320,10 @@ details summary::-webkit-details-marker {
 </div>
 
 <h1>🌿 カンツク</h1>
-<div class="subtitle">関連図つくれるサイト</div>
+
+<div class="subtitle">
+  関連図つくれるサイト
+</div>
 
 <div class="form-box">
 
@@ -254,7 +348,33 @@ details summary::-webkit-details-marker {
 <details class="category-box">
 
   <summary class="category-title">
+
+    {% if category == "循環器" %}
+      🫀
+    {% elif category == "呼吸器" %}
+      🫁
+    {% elif category == "消化器" %}
+      🍽
+    {% elif category == "神経" %}
+      🧠
+    {% elif category == "腎・代謝" %}
+      💧
+    {% elif category == "血液" %}
+      🩸
+    {% elif category == "精神" %}
+      🌙
+    {% elif category == "小児" %}
+      🧸
+    {% elif category == "母性" %}
+      🤱
+    {% elif category == "整形" %}
+      🦴
+    {% elif category == "泌尿器" %}
+      🚽
+    {% endif %}
+
     {{ category }}
+
   </summary>
 
   <div class="category-content">
@@ -282,7 +402,7 @@ details summary::-webkit-details-marker {
 {% endfor %}
 
 <button type="submit">
-  関連図をつくる
+  ✨ 関連図をつくる
 </button>
 
 </form>
@@ -310,8 +430,6 @@ details summary::-webkit-details-marker {
 
 </div>
 
-</div>
-
 <div class="update-box">
 
   <h3>🆕 更新情報</h3>
@@ -325,6 +443,8 @@ details summary::-webkit-details-marker {
     <li>2026/05/19　イレウス、前立腺がん、パーキンソン病、白血病、統合失調症、川崎病、妊娠高血圧症候群を追加しました</li>
     <li>2026/05/20　サイトリニューアル✨カテゴリー分け実装しました</li>
   </ul>
+
+</div>
 
 </div>
 
@@ -355,8 +475,7 @@ function updateSelected() {
   } else {
 
     display.innerText =
-      "選択中：" + selected.join("・");
-
+      "選択中：" + selected.join(" ・ ");
   }
 }
 
