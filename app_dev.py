@@ -24,11 +24,11 @@ disease_list = [
     'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
     'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease', 
     'ileus', 'prostate_cancer', 'parkinsons_disease', 'leukemia', 'schizophrenia',
-    'kawasaki_disease', 'pregnancy_induced_hypertension'
+    'kawasaki_disease', 'pregnancy_induced_hypertension','aso'
 ]
 
 categories = {
-    "🫀 循環器": ["hf", "mi", "arrhythmia"],
+    "🫀 循環器": ["hf", "mi", "arrhythmia",'aso'],
     "🫁 呼吸器": ["pn", "copd", "atelectasis", "lung_cancer", "pe"],
     "🍽 消化器": ["gastric_cancer", "colon_cancer", "ileus", "liver_cirrhosis"],
     "🩺 腎・代謝": ["dm", "chronic_kidney_disease"],

@@ -15,7 +15,7 @@ disease_list = [
     'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
     'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease', 
     'ileus', 'prostate_cancer', 'parkinsons_disease', 'leukemia', 'schizophrenia',
-    'kawasaki_disease', 'pregnancy_induced_hypertension'
+    'kawasaki_disease', 'pregnancy_induced_hypertension', 'aso'
 ]
 
 # -------------------
@@ -42,7 +42,8 @@ MAX_DEPTH_MAP = {
     'leukemia': 6,
     'schizophrenia': 6,
     'kawasaki_disease': 7,
-    'pregnancy_induced_hypertension': 8
+    'pregnancy_induced_hypertension': 8,
+    'aso': 8
 }
 
 # -------------------

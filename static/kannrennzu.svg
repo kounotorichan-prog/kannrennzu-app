@@ -6,271 +6,811 @@
 <!-- Pages: 1 -->
 <svg width="848pt" height="605pt"
  viewBox="4.00 4.00 844.00 602.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(0.502307 0.502307) rotate(0) translate(11.17 1193.67)">
-<polygon fill="white" stroke="none" points="-4,4 -4,-1186.51 1669,-1186.51 1669,4 -4,4"/>
-<!-- consciousness -->
+<g id="graph0" class="graph" transform="scale(0.353371 0.353371) rotate(0) translate(14.19 1698.46)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-1688.27 2375.5,-1688.27 2375.5,4 -4,4"/>
+<!-- ischemia -->
 <g id="node1" class="node">
+<title>ischemia</title>
+<path fill="none" stroke="black" d="M1499.5,-1347.85C1499.5,-1347.85 1379.5,-1347.85 1379.5,-1347.85 1373.5,-1347.85 1367.5,-1341.85 1367.5,-1335.85 1367.5,-1335.85 1367.5,-1287.85 1367.5,-1287.85 1367.5,-1281.85 1373.5,-1275.85 1379.5,-1275.85 1379.5,-1275.85 1499.5,-1275.85 1499.5,-1275.85 1505.5,-1275.85 1511.5,-1281.85 1511.5,-1287.85 1511.5,-1287.85 1511.5,-1335.85 1511.5,-1335.85 1511.5,-1341.85 1505.5,-1347.85 1499.5,-1347.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1439.5" y="-1304.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">虚血</text>
+</g>
+<!-- nausea -->
+<g id="node19" class="node">
+<title>nausea</title>
+<path fill="none" stroke="black" d="M1668.5,-1481.85C1668.5,-1481.85 1548.5,-1481.85 1548.5,-1481.85 1542.5,-1481.85 1536.5,-1475.85 1536.5,-1469.85 1536.5,-1469.85 1536.5,-1421.85 1536.5,-1421.85 1536.5,-1415.85 1542.5,-1409.85 1548.5,-1409.85 1548.5,-1409.85 1668.5,-1409.85 1668.5,-1409.85 1674.5,-1409.85 1680.5,-1415.85 1680.5,-1421.85 1680.5,-1421.85 1680.5,-1469.85 1680.5,-1469.85 1680.5,-1475.85 1674.5,-1481.85 1668.5,-1481.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-1438.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">悪心</text>
+</g>
+<!-- ischemia&#45;&gt;nausea -->
+<g id="edge37" class="edge">
+<title>ischemia&#45;&gt;nausea</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1475.5,-1348.11C1475.5,-1387.8 1475.5,-1445.85 1475.5,-1445.85 1475.5,-1445.85 1519.04,-1445.85 1519.04,-1445.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.04,-1451.1 1534.04,-1445.85 1519.04,-1440.6 1519.04,-1451.1"/>
+</g>
+<!-- consciousness -->
+<g id="node27" class="node">
 <title>consciousness</title>
-<path fill="none" stroke="black" d="M1315,-847.14C1315,-847.14 1195,-847.14 1195,-847.14 1189,-847.14 1183,-841.14 1183,-835.14 1183,-835.14 1183,-787.14 1183,-787.14 1183,-781.14 1189,-775.14 1195,-775.14 1195,-775.14 1315,-775.14 1315,-775.14 1321,-775.14 1327,-781.14 1327,-787.14 1327,-787.14 1327,-835.14 1327,-835.14 1327,-841.14 1321,-847.14 1315,-847.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1255" y="-803.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">意識レベル低下</text>
+<path fill="none" stroke="black" d="M2021.5,-1137.85C2021.5,-1137.85 1901.5,-1137.85 1901.5,-1137.85 1895.5,-1137.85 1889.5,-1131.85 1889.5,-1125.85 1889.5,-1125.85 1889.5,-1077.85 1889.5,-1077.85 1889.5,-1071.85 1895.5,-1065.85 1901.5,-1065.85 1901.5,-1065.85 2021.5,-1065.85 2021.5,-1065.85 2027.5,-1065.85 2033.5,-1071.85 2033.5,-1077.85 2033.5,-1077.85 2033.5,-1125.85 2033.5,-1125.85 2033.5,-1131.85 2027.5,-1137.85 2021.5,-1137.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1961.5" y="-1094.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">意識レベル低下</text>
 </g>
-<!-- delirium -->
-<g id="node15" class="node">
-<title>delirium</title>
-<path fill="none" stroke="black" d="M1484,-634.14C1484,-634.14 1364,-634.14 1364,-634.14 1358,-634.14 1352,-628.14 1352,-622.14 1352,-622.14 1352,-574.14 1352,-574.14 1352,-568.14 1358,-562.14 1364,-562.14 1364,-562.14 1484,-562.14 1484,-562.14 1490,-562.14 1496,-568.14 1496,-574.14 1496,-574.14 1496,-622.14 1496,-622.14 1496,-628.14 1490,-634.14 1484,-634.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1424" y="-590.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">せん妄</text>
+<!-- ischemia&#45;&gt;consciousness -->
+<g id="edge39" class="edge">
+<title>ischemia&#45;&gt;consciousness</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1408.5,-1275.6C1408.5,-1222.12 1408.5,-1128.35 1408.5,-1128.35 1408.5,-1128.35 1872.09,-1128.35 1872.09,-1128.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1872.09,-1133.6 1887.09,-1128.35 1872.09,-1123.1 1872.09,-1133.6"/>
 </g>
-<!-- consciousness&#45;&gt;delirium -->
-<g id="edge5" class="edge">
-<title>consciousness&#45;&gt;delirium</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1327.16,-800.64C1373.1,-800.64 1424,-800.64 1424,-800.64 1424,-800.64 1424,-651.46 1424,-651.46"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1429.25,-651.46 1424,-636.46 1418.75,-651.46 1429.25,-651.46"/>
+<!-- necrosis -->
+<g id="node35" class="node">
+<title>necrosis</title>
+<path fill="none" stroke="black" d="M1668.5,-776.85C1668.5,-776.85 1548.5,-776.85 1548.5,-776.85 1542.5,-776.85 1536.5,-770.85 1536.5,-764.85 1536.5,-764.85 1536.5,-716.85 1536.5,-716.85 1536.5,-710.85 1542.5,-704.85 1548.5,-704.85 1548.5,-704.85 1668.5,-704.85 1668.5,-704.85 1674.5,-704.85 1680.5,-710.85 1680.5,-716.85 1680.5,-716.85 1680.5,-764.85 1680.5,-764.85 1680.5,-770.85 1674.5,-776.85 1668.5,-776.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-733.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">壊死</text>
 </g>
-<!-- patient -->
-<g id="node2" class="node">
-<title>patient</title>
-<ellipse fill="#d8bfaa" stroke="black" cx="410" cy="-334.14" rx="72" ry="36"/>
-<text xml:space="preserve" text-anchor="middle" x="410" y="-326.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">Aさん</text>
-</g>
-<!-- atelectasis -->
-<g id="node12" class="node">
-<title>atelectasis</title>
-<path fill="#efe3d5" stroke="black" d="M639,-282.14C639,-282.14 519,-282.14 519,-282.14 513,-282.14 507,-276.14 507,-270.14 507,-270.14 507,-222.14 507,-222.14 507,-216.14 513,-210.14 519,-210.14 519,-210.14 639,-210.14 639,-210.14 645,-210.14 651,-216.14 651,-222.14 651,-222.14 651,-270.14 651,-270.14 651,-276.14 645,-282.14 639,-282.14"/>
-<text xml:space="preserve" text-anchor="middle" x="579" y="-238.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">無気肺</text>
-</g>
-<!-- patient&#45;&gt;atelectasis -->
-<g id="edge1" class="edge">
-<title>patient&#45;&gt;atelectasis</title>
-<path fill="none" stroke="#c2a38c" stroke-width="2" d="M479.1,-323.64C516.45,-323.64 555,-323.64 555,-323.64 555,-323.64 555,-295.65 555,-295.65"/>
-<polygon fill="#c2a38c" stroke="#c2a38c" stroke-width="2" points="558.5,-295.65 555,-285.65 551.5,-295.65 558.5,-295.65"/>
-</g>
-<!-- ventilation -->
-<g id="node3" class="node">
-<title>ventilation</title>
-<path fill="none" stroke="black" d="M808,-458.14C808,-458.14 688,-458.14 688,-458.14 682,-458.14 676,-452.14 676,-446.14 676,-446.14 676,-398.14 676,-398.14 676,-392.14 682,-386.14 688,-386.14 688,-386.14 808,-386.14 808,-386.14 814,-386.14 820,-392.14 820,-398.14 820,-398.14 820,-446.14 820,-446.14 820,-452.14 814,-458.14 808,-458.14"/>
-<text xml:space="preserve" text-anchor="middle" x="748" y="-414.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">換気低下</text>
-</g>
-<!-- gas_exchange -->
-<g id="node8" class="node">
-<title>gas_exchange</title>
-<path fill="none" stroke="black" d="M977,-458.14C977,-458.14 857,-458.14 857,-458.14 851,-458.14 845,-452.14 845,-446.14 845,-446.14 845,-398.14 845,-398.14 845,-392.14 851,-386.14 857,-386.14 857,-386.14 977,-386.14 977,-386.14 983,-386.14 989,-392.14 989,-398.14 989,-398.14 989,-446.14 989,-446.14 989,-452.14 983,-458.14 977,-458.14"/>
-<text xml:space="preserve" text-anchor="middle" x="917" y="-414.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">ガス交換障害</text>
-</g>
-<!-- ventilation&#45;&gt;gas_exchange -->
-<g id="edge23" class="edge">
-<title>ventilation&#45;&gt;gas_exchange</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M820.16,-422.14C820.16,-422.14 827.42,-422.14 827.42,-422.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="827.42,-427.39 842.42,-422.14 827.42,-416.89 827.42,-427.39"/>
-</g>
-<!-- exercise_intolerance -->
-<g id="node4" class="node">
-<title>exercise_intolerance</title>
-<path fill="none" stroke="black" d="M1484,-898.14C1484,-898.14 1364,-898.14 1364,-898.14 1358,-898.14 1352,-892.14 1352,-886.14 1352,-886.14 1352,-838.14 1352,-838.14 1352,-832.14 1358,-826.14 1364,-826.14 1364,-826.14 1484,-826.14 1484,-826.14 1490,-826.14 1496,-832.14 1496,-838.14 1496,-838.14 1496,-886.14 1496,-886.14 1496,-892.14 1490,-898.14 1484,-898.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1424" y="-854.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">運動耐容能低下</text>
-</g>
-<!-- adl -->
-<g id="node5" class="node">
-<title>adl</title>
-<path fill="none" stroke="black" d="M1653,-960.14C1653,-960.14 1533,-960.14 1533,-960.14 1527,-960.14 1521,-954.14 1521,-948.14 1521,-948.14 1521,-900.14 1521,-900.14 1521,-894.14 1527,-888.14 1533,-888.14 1533,-888.14 1653,-888.14 1653,-888.14 1659,-888.14 1665,-894.14 1665,-900.14 1665,-900.14 1665,-948.14 1665,-948.14 1665,-954.14 1659,-960.14 1653,-960.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1593" y="-916.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">ADL低下</text>
-</g>
-<!-- exercise_intolerance&#45;&gt;adl -->
-<g id="edge11" class="edge">
-<title>exercise_intolerance&#45;&gt;adl</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1496.16,-893.14C1496.16,-893.14 1503.42,-893.14 1503.42,-893.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1503.42,-898.39 1518.42,-893.14 1503.42,-887.89 1503.42,-898.39"/>
-</g>
-<!-- chest_pain -->
-<g id="node6" class="node">
-<title>chest_pain</title>
-<path fill="none" stroke="black" d="M808,-282.14C808,-282.14 688,-282.14 688,-282.14 682,-282.14 676,-276.14 676,-270.14 676,-270.14 676,-222.14 676,-222.14 676,-216.14 682,-210.14 688,-210.14 688,-210.14 808,-210.14 808,-210.14 814,-210.14 820,-216.14 820,-222.14 820,-222.14 820,-270.14 820,-270.14 820,-276.14 814,-282.14 808,-282.14"/>
-<text xml:space="preserve" text-anchor="middle" x="748" y="-238.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">胸痛</text>
+<!-- ischemia&#45;&gt;necrosis -->
+<g id="edge34" class="edge">
+<title>ischemia&#45;&gt;necrosis</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.82,-1287.52C1518.89,-1287.52 1523.5,-1287.52 1523.5,-1287.52 1523.5,-1287.52 1523.5,-763.52 1523.5,-763.52 1523.5,-763.52 1524.75,-763.52 1524.75,-763.52"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1518.92,-768.77 1533.92,-763.52 1518.92,-758.27 1518.92,-768.77"/>
 </g>
 <!-- dyspnea -->
-<g id="node7" class="node">
+<g id="node48" class="node">
 <title>dyspnea</title>
-<path fill="none" stroke="black" d="M1315,-1023.14C1315,-1023.14 1195,-1023.14 1195,-1023.14 1189,-1023.14 1183,-1017.14 1183,-1011.14 1183,-1011.14 1183,-963.14 1183,-963.14 1183,-957.14 1189,-951.14 1195,-951.14 1195,-951.14 1315,-951.14 1315,-951.14 1321,-951.14 1327,-957.14 1327,-963.14 1327,-963.14 1327,-1011.14 1327,-1011.14 1327,-1017.14 1321,-1023.14 1315,-1023.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1255" y="-979.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">息切れ</text>
+<path fill="none" stroke="black" d="M2021.5,-732.85C2021.5,-732.85 1901.5,-732.85 1901.5,-732.85 1895.5,-732.85 1889.5,-726.85 1889.5,-720.85 1889.5,-720.85 1889.5,-672.85 1889.5,-672.85 1889.5,-666.85 1895.5,-660.85 1901.5,-660.85 1901.5,-660.85 2021.5,-660.85 2021.5,-660.85 2027.5,-660.85 2033.5,-666.85 2033.5,-672.85 2033.5,-672.85 2033.5,-720.85 2033.5,-720.85 2033.5,-726.85 2027.5,-732.85 2021.5,-732.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1961.5" y="-689.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">息切れ</text>
 </g>
-<!-- dyspnea&#45;&gt;exercise_intolerance -->
-<g id="edge9" class="edge">
-<title>dyspnea&#45;&gt;exercise_intolerance</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1327.34,-953.39C1358.53,-953.39 1388,-953.39 1388,-953.39 1388,-953.39 1388,-915.58 1388,-915.58"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1393.25,-915.58 1388,-900.58 1382.75,-915.58 1393.25,-915.58"/>
+<!-- ischemia&#45;&gt;dyspnea -->
+<g id="edge36" class="edge">
+<title>ischemia&#45;&gt;dyspnea</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.83,-1299.18C1636.23,-1299.18 1877.5,-1299.18 1877.5,-1299.18 1877.5,-1299.18 1877.5,-726.35 1877.5,-726.35 1877.5,-726.35 1878.67,-726.35 1878.67,-726.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1872.06,-731.6 1887.06,-726.35 1872.06,-721.1 1872.06,-731.6"/>
 </g>
-<!-- dyspnea&#45;&gt;adl -->
-<g id="edge7" class="edge">
-<title>dyspnea&#45;&gt;adl</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1327.09,-955.64C1327.09,-955.64 1503.61,-955.64 1503.61,-955.64"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1503.61,-960.89 1518.61,-955.64 1503.61,-950.39 1503.61,-960.89"/>
+<!-- chest_pain -->
+<g id="node50" class="node">
+<title>chest_pain</title>
+<path fill="none" stroke="black" d="M1668.5,-1382.85C1668.5,-1382.85 1548.5,-1382.85 1548.5,-1382.85 1542.5,-1382.85 1536.5,-1376.85 1536.5,-1370.85 1536.5,-1370.85 1536.5,-1322.85 1536.5,-1322.85 1536.5,-1316.85 1542.5,-1310.85 1548.5,-1310.85 1548.5,-1310.85 1668.5,-1310.85 1668.5,-1310.85 1674.5,-1310.85 1680.5,-1316.85 1680.5,-1322.85 1680.5,-1322.85 1680.5,-1370.85 1680.5,-1370.85 1680.5,-1376.85 1674.5,-1382.85 1668.5,-1382.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-1339.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">胸痛</text>
 </g>
-<!-- fatigue -->
-<g id="node16" class="node">
-<title>fatigue</title>
-<path fill="none" stroke="black" d="M1484,-1148.14C1484,-1148.14 1364,-1148.14 1364,-1148.14 1358,-1148.14 1352,-1142.14 1352,-1136.14 1352,-1136.14 1352,-1088.14 1352,-1088.14 1352,-1082.14 1358,-1076.14 1364,-1076.14 1364,-1076.14 1484,-1076.14 1484,-1076.14 1490,-1076.14 1496,-1082.14 1496,-1088.14 1496,-1088.14 1496,-1136.14 1496,-1136.14 1496,-1142.14 1490,-1148.14 1484,-1148.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1424" y="-1104.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">倦怠感</text>
+<!-- ischemia&#45;&gt;chest_pain -->
+<g id="edge35" class="edge">
+<title>ischemia&#45;&gt;chest_pain</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.66,-1329.35C1511.66,-1329.35 1518.92,-1329.35 1518.92,-1329.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1518.92,-1334.6 1533.92,-1329.35 1518.92,-1324.1 1518.92,-1334.6"/>
 </g>
-<!-- dyspnea&#45;&gt;fatigue -->
-<g id="edge8" class="edge">
-<title>dyspnea&#45;&gt;fatigue</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1327.16,-991.64C1373.1,-991.64 1424,-991.64 1424,-991.64 1424,-991.64 1424,-1058.54 1424,-1058.54"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1418.75,-1058.54 1424,-1073.54 1429.25,-1058.54 1418.75,-1058.54"/>
+<!-- cold_sweat -->
+<g id="node51" class="node">
+<title>cold_sweat</title>
+<path fill="none" stroke="black" d="M1668.5,-1680.85C1668.5,-1680.85 1548.5,-1680.85 1548.5,-1680.85 1542.5,-1680.85 1536.5,-1674.85 1536.5,-1668.85 1536.5,-1668.85 1536.5,-1620.85 1536.5,-1620.85 1536.5,-1614.85 1542.5,-1608.85 1548.5,-1608.85 1548.5,-1608.85 1668.5,-1608.85 1668.5,-1608.85 1674.5,-1608.85 1680.5,-1614.85 1680.5,-1620.85 1680.5,-1620.85 1680.5,-1668.85 1680.5,-1668.85 1680.5,-1674.85 1674.5,-1680.85 1668.5,-1680.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-1637.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">冷汗</text>
 </g>
-<!-- hypoxia -->
-<g id="node10" class="node">
-<title>hypoxia</title>
-<path fill="none" stroke="black" d="M1146,-609.14C1146,-609.14 1026,-609.14 1026,-609.14 1020,-609.14 1014,-603.14 1014,-597.14 1014,-597.14 1014,-549.14 1014,-549.14 1014,-543.14 1020,-537.14 1026,-537.14 1026,-537.14 1146,-537.14 1146,-537.14 1152,-537.14 1158,-543.14 1158,-549.14 1158,-549.14 1158,-597.14 1158,-597.14 1158,-603.14 1152,-609.14 1146,-609.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1086" y="-565.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">低酸素</text>
+<!-- ischemia&#45;&gt;cold_sweat -->
+<g id="edge38" class="edge">
+<title>ischemia&#45;&gt;cold_sweat</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1403.5,-1348.12C1403.5,-1434.43 1403.5,-1644.85 1403.5,-1644.85 1403.5,-1644.85 1519.11,-1644.85 1519.11,-1644.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.11,-1650.1 1534.11,-1644.85 1519.11,-1639.6 1519.11,-1650.1"/>
 </g>
-<!-- gas_exchange&#45;&gt;hypoxia -->
-<g id="edge13" class="edge">
-<title>gas_exchange&#45;&gt;hypoxia</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M989.5,-439.64C1025.75,-439.64 1062,-439.64 1062,-439.64 1062,-439.64 1062,-519.54 1062,-519.54"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1056.75,-519.54 1062,-534.54 1067.25,-519.54 1056.75,-519.54"/>
+<!-- anaerobic -->
+<g id="node53" class="node">
+<title>anaerobic</title>
+<path fill="none" stroke="black" d="M1668.5,-1581.85C1668.5,-1581.85 1548.5,-1581.85 1548.5,-1581.85 1542.5,-1581.85 1536.5,-1575.85 1536.5,-1569.85 1536.5,-1569.85 1536.5,-1521.85 1536.5,-1521.85 1536.5,-1515.85 1542.5,-1509.85 1548.5,-1509.85 1548.5,-1509.85 1668.5,-1509.85 1668.5,-1509.85 1674.5,-1509.85 1680.5,-1515.85 1680.5,-1521.85 1680.5,-1521.85 1680.5,-1569.85 1680.5,-1569.85 1680.5,-1575.85 1674.5,-1581.85 1668.5,-1581.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-1538.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">嫌気代謝</text>
 </g>
-<!-- spo2 -->
-<g id="node18" class="node">
-<title>spo2</title>
-<path fill="none" stroke="black" d="M1315,-245.14C1315,-245.14 1195,-245.14 1195,-245.14 1189,-245.14 1183,-239.14 1183,-233.14 1183,-233.14 1183,-185.14 1183,-185.14 1183,-179.14 1189,-173.14 1195,-173.14 1195,-173.14 1315,-173.14 1315,-173.14 1321,-173.14 1327,-179.14 1327,-185.14 1327,-185.14 1327,-233.14 1327,-233.14 1327,-239.14 1321,-245.14 1315,-245.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1255" y="-201.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">SpO2低下</text>
+<!-- ischemia&#45;&gt;anaerobic -->
+<g id="edge33" class="edge">
+<title>ischemia&#45;&gt;anaerobic</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1439.5,-1348.15C1439.5,-1413.88 1439.5,-1545.85 1439.5,-1545.85 1439.5,-1545.85 1519.22,-1545.85 1519.22,-1545.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.22,-1551.1 1534.22,-1545.85 1519.22,-1540.6 1519.22,-1551.1"/>
 </g>
-<!-- gas_exchange&#45;&gt;spo2 -->
-<g id="edge14" class="edge">
-<title>gas_exchange&#45;&gt;spo2</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M917,-385.86C917,-328.13 917,-221.81 917,-221.81 917,-221.81 1165.79,-221.81 1165.79,-221.81"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1165.79,-227.06 1180.79,-221.81 1165.79,-216.56 1165.79,-227.06"/>
+<!-- plaque -->
+<g id="node2" class="node">
+<title>plaque</title>
+<path fill="none" stroke="black" d="M654.5,-1009.85C654.5,-1009.85 534.5,-1009.85 534.5,-1009.85 528.5,-1009.85 522.5,-1003.85 522.5,-997.85 522.5,-997.85 522.5,-949.85 522.5,-949.85 522.5,-943.85 528.5,-937.85 534.5,-937.85 534.5,-937.85 654.5,-937.85 654.5,-937.85 660.5,-937.85 666.5,-943.85 666.5,-949.85 666.5,-949.85 666.5,-997.85 666.5,-997.85 666.5,-1003.85 660.5,-1009.85 654.5,-1009.85"/>
+<text xml:space="preserve" text-anchor="middle" x="594.5" y="-966.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">プラーク形成</text>
 </g>
-<!-- breath_sound_decrease -->
-<g id="node9" class="node">
-<title>breath_sound_decrease</title>
-<path fill="none" stroke="black" d="M808,-106.14C808,-106.14 688,-106.14 688,-106.14 682,-106.14 676,-100.14 676,-94.14 676,-94.14 676,-46.14 676,-46.14 676,-40.14 682,-34.14 688,-34.14 688,-34.14 808,-34.14 808,-34.14 814,-34.14 820,-40.14 820,-46.14 820,-46.14 820,-94.14 820,-94.14 820,-100.14 814,-106.14 808,-106.14"/>
-<text xml:space="preserve" text-anchor="middle" x="748" y="-62.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">呼吸音減弱</text>
+<!-- plaque_rupture -->
+<g id="node6" class="node">
+<title>plaque_rupture</title>
+<path fill="none" stroke="black" d="M823.5,-1009.85C823.5,-1009.85 703.5,-1009.85 703.5,-1009.85 697.5,-1009.85 691.5,-1003.85 691.5,-997.85 691.5,-997.85 691.5,-949.85 691.5,-949.85 691.5,-943.85 697.5,-937.85 703.5,-937.85 703.5,-937.85 823.5,-937.85 823.5,-937.85 829.5,-937.85 835.5,-943.85 835.5,-949.85 835.5,-949.85 835.5,-997.85 835.5,-997.85 835.5,-1003.85 829.5,-1009.85 823.5,-1009.85"/>
+<text xml:space="preserve" text-anchor="middle" x="763.5" y="-966.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">プラーク破綻</text>
 </g>
-<!-- hypoxia&#45;&gt;consciousness -->
-<g id="edge20" class="edge">
-<title>hypoxia&#45;&gt;consciousness</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1122,-609.55C1122,-676.22 1122,-811.14 1122,-811.14 1122,-811.14 1165.54,-811.14 1165.54,-811.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1165.54,-816.39 1180.54,-811.14 1165.54,-805.89 1165.54,-816.39"/>
+<!-- plaque&#45;&gt;plaque_rupture -->
+<g id="edge47" class="edge">
+<title>plaque&#45;&gt;plaque_rupture</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M666.66,-973.85C666.66,-973.85 673.92,-973.85 673.92,-973.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="673.92,-979.1 688.92,-973.85 673.92,-968.6 673.92,-979.1"/>
 </g>
-<!-- hypoxia&#45;&gt;dyspnea -->
-<g id="edge15" class="edge">
-<title>hypoxia&#45;&gt;dyspnea</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1086,-609.52C1086,-710.54 1086,-987.14 1086,-987.14 1086,-987.14 1165.72,-987.14 1165.72,-987.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1165.72,-992.39 1180.72,-987.14 1165.72,-981.89 1165.72,-992.39"/>
+<!-- increased_icp -->
+<g id="node3" class="node">
+<title>increased_icp</title>
+<path fill="none" stroke="black" d="M1845.5,-1100.85C1845.5,-1100.85 1725.5,-1100.85 1725.5,-1100.85 1719.5,-1100.85 1713.5,-1094.85 1713.5,-1088.85 1713.5,-1088.85 1713.5,-1040.85 1713.5,-1040.85 1713.5,-1034.85 1719.5,-1028.85 1725.5,-1028.85 1725.5,-1028.85 1845.5,-1028.85 1845.5,-1028.85 1851.5,-1028.85 1857.5,-1034.85 1857.5,-1040.85 1857.5,-1040.85 1857.5,-1088.85 1857.5,-1088.85 1857.5,-1094.85 1851.5,-1100.85 1845.5,-1100.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-1057.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">頭蓋内圧亢進</text>
 </g>
-<!-- cyanosis -->
-<g id="node14" class="node">
-<title>cyanosis</title>
-<path fill="none" stroke="black" d="M1315,-671.14C1315,-671.14 1195,-671.14 1195,-671.14 1189,-671.14 1183,-665.14 1183,-659.14 1183,-659.14 1183,-611.14 1183,-611.14 1183,-605.14 1189,-599.14 1195,-599.14 1195,-599.14 1315,-599.14 1315,-599.14 1321,-599.14 1327,-605.14 1327,-611.14 1327,-611.14 1327,-659.14 1327,-659.14 1327,-665.14 1321,-671.14 1315,-671.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1255" y="-627.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">チアノーゼ</text>
+<!-- increased_icp&#45;&gt;consciousness -->
+<g id="edge32" class="edge">
+<title>increased_icp&#45;&gt;consciousness</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.85,-1083.35C1857.85,-1083.35 1872.03,-1083.35 1872.03,-1083.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1872.03,-1088.6 1887.03,-1083.35 1872.03,-1078.1 1872.03,-1088.6"/>
 </g>
-<!-- hypoxia&#45;&gt;cyanosis -->
-<g id="edge19" class="edge">
-<title>hypoxia&#45;&gt;cyanosis</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1158.16,-604.14C1158.16,-604.14 1165.42,-604.14 1165.42,-604.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1165.42,-609.39 1180.42,-604.14 1165.42,-598.89 1165.42,-609.39"/>
+<!-- patient -->
+<g id="node4" class="node">
+<title>patient</title>
+<ellipse fill="#d8bfaa" stroke="black" cx="71.5" cy="-803.85" rx="72" ry="36"/>
+<text xml:space="preserve" text-anchor="middle" x="71.5" y="-796.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">Aさん</text>
 </g>
-<!-- hypoxia&#45;&gt;delirium -->
-<g id="edge18" class="edge">
-<title>hypoxia&#45;&gt;delirium</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1158.09,-586.81C1158.09,-586.81 1334.61,-586.81 1334.61,-586.81"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1334.61,-592.06 1349.61,-586.81 1334.61,-581.56 1334.61,-592.06"/>
+<!-- aso -->
+<g id="node55" class="node">
+<title>aso</title>
+<path fill="#efe3d5" stroke="black" d="M316.5,-839.85C316.5,-839.85 180.5,-839.85 180.5,-839.85 174.5,-839.85 168.5,-833.85 168.5,-827.85 168.5,-827.85 168.5,-779.85 168.5,-779.85 168.5,-773.85 174.5,-767.85 180.5,-767.85 180.5,-767.85 316.5,-767.85 316.5,-767.85 322.5,-767.85 328.5,-773.85 328.5,-779.85 328.5,-779.85 328.5,-827.85 328.5,-827.85 328.5,-833.85 322.5,-839.85 316.5,-839.85"/>
+<text xml:space="preserve" text-anchor="middle" x="248.5" y="-796.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">閉塞性動脈硬化症</text>
 </g>
-<!-- hypoxia&#45;&gt;fatigue -->
-<g id="edge16" class="edge">
-<title>hypoxia&#45;&gt;fatigue</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1050,-609.34C1050,-730.19 1050,-1112.14 1050,-1112.14 1050,-1112.14 1334.77,-1112.14 1334.77,-1112.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1334.77,-1117.39 1349.77,-1112.14 1334.77,-1106.89 1334.77,-1117.39"/>
+<!-- patient&#45;&gt;aso -->
+<g id="edge1" class="edge">
+<title>patient&#45;&gt;aso</title>
+<path fill="none" stroke="#c2a38c" stroke-width="2" d="M143.75,-803.85C143.75,-803.85 155.09,-803.85 155.09,-803.85"/>
+<polygon fill="#c2a38c" stroke="#c2a38c" stroke-width="2" points="155.09,-807.35 165.09,-803.85 155.09,-800.35 155.09,-807.35"/>
 </g>
-<!-- encephalopathy -->
-<g id="node17" class="node">
-<title>encephalopathy</title>
-<path fill="none" stroke="black" d="M1315,-421.14C1315,-421.14 1195,-421.14 1195,-421.14 1189,-421.14 1183,-415.14 1183,-409.14 1183,-409.14 1183,-361.14 1183,-361.14 1183,-355.14 1189,-349.14 1195,-349.14 1195,-349.14 1315,-349.14 1315,-349.14 1321,-349.14 1327,-355.14 1327,-361.14 1327,-361.14 1327,-409.14 1327,-409.14 1327,-415.14 1321,-421.14 1315,-421.14"/>
-<text xml:space="preserve" text-anchor="middle" x="1255" y="-377.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">脳症</text>
+<!-- cognitive_decline -->
+<g id="node5" class="node">
+<title>cognitive_decline</title>
+<path fill="none" stroke="black" d="M2190.5,-398.85C2190.5,-398.85 2070.5,-398.85 2070.5,-398.85 2064.5,-398.85 2058.5,-392.85 2058.5,-386.85 2058.5,-386.85 2058.5,-338.85 2058.5,-338.85 2058.5,-332.85 2064.5,-326.85 2070.5,-326.85 2070.5,-326.85 2190.5,-326.85 2190.5,-326.85 2196.5,-326.85 2202.5,-332.85 2202.5,-338.85 2202.5,-338.85 2202.5,-386.85 2202.5,-386.85 2202.5,-392.85 2196.5,-398.85 2190.5,-398.85"/>
+<text xml:space="preserve" text-anchor="middle" x="2130.5" y="-355.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">認知機能低下</text>
 </g>
-<!-- hypoxia&#45;&gt;encephalopathy -->
+<!-- adl -->
+<g id="node31" class="node">
+<title>adl</title>
+<path fill="none" stroke="black" d="M2359.5,-697.85C2359.5,-697.85 2239.5,-697.85 2239.5,-697.85 2233.5,-697.85 2227.5,-691.85 2227.5,-685.85 2227.5,-685.85 2227.5,-637.85 2227.5,-637.85 2227.5,-631.85 2233.5,-625.85 2239.5,-625.85 2239.5,-625.85 2359.5,-625.85 2359.5,-625.85 2365.5,-625.85 2371.5,-631.85 2371.5,-637.85 2371.5,-637.85 2371.5,-685.85 2371.5,-685.85 2371.5,-691.85 2365.5,-697.85 2359.5,-697.85"/>
+<text xml:space="preserve" text-anchor="middle" x="2299.5" y="-654.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">ADL低下</text>
+</g>
+<!-- cognitive_decline&#45;&gt;adl -->
 <g id="edge21" class="edge">
-<title>hypoxia&#45;&gt;encephalopathy</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1158.5,-549.64C1194.75,-549.64 1231,-549.64 1231,-549.64 1231,-549.64 1231,-438.36 1231,-438.36"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1236.25,-438.36 1231,-423.36 1225.75,-438.36 1236.25,-438.36"/>
+<title>cognitive_decline&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2202.83,-362.85C2253.98,-362.85 2313.5,-362.85 2313.5,-362.85 2313.5,-362.85 2313.5,-608.37 2313.5,-608.37"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2308.25,-608.37 2313.5,-623.37 2318.75,-608.37 2308.25,-608.37"/>
 </g>
-<!-- hypoxia&#45;&gt;spo2 -->
-<g id="edge17" class="edge">
-<title>hypoxia&#45;&gt;spo2</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1110,-536.79C1110,-449.16 1110,-233.47 1110,-233.47 1110,-233.47 1165.38,-233.47 1165.38,-233.47"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1165.38,-238.72 1180.38,-233.47 1165.38,-228.22 1165.38,-238.72"/>
+<!-- thrombus -->
+<g id="node18" class="node">
+<title>thrombus</title>
+<path fill="none" stroke="black" d="M992.5,-1009.85C992.5,-1009.85 872.5,-1009.85 872.5,-1009.85 866.5,-1009.85 860.5,-1003.85 860.5,-997.85 860.5,-997.85 860.5,-949.85 860.5,-949.85 860.5,-943.85 866.5,-937.85 872.5,-937.85 872.5,-937.85 992.5,-937.85 992.5,-937.85 998.5,-937.85 1004.5,-943.85 1004.5,-949.85 1004.5,-949.85 1004.5,-997.85 1004.5,-997.85 1004.5,-1003.85 998.5,-1009.85 992.5,-1009.85"/>
+<text xml:space="preserve" text-anchor="middle" x="932.5" y="-966.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">血栓形成</text>
 </g>
-<!-- secretion_retention -->
+<!-- plaque_rupture&#45;&gt;thrombus -->
+<g id="edge48" class="edge">
+<title>plaque_rupture&#45;&gt;thrombus</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M835.66,-973.85C835.66,-973.85 842.92,-973.85 842.92,-973.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="842.92,-979.1 857.92,-973.85 842.92,-968.6 842.92,-979.1"/>
+</g>
+<!-- brain_necrosis -->
+<g id="node7" class="node">
+<title>brain_necrosis</title>
+<path fill="none" stroke="black" d="M1499.5,-882.85C1499.5,-882.85 1379.5,-882.85 1379.5,-882.85 1373.5,-882.85 1367.5,-876.85 1367.5,-870.85 1367.5,-870.85 1367.5,-822.85 1367.5,-822.85 1367.5,-816.85 1373.5,-810.85 1379.5,-810.85 1379.5,-810.85 1499.5,-810.85 1499.5,-810.85 1505.5,-810.85 1511.5,-816.85 1511.5,-822.85 1511.5,-822.85 1511.5,-870.85 1511.5,-870.85 1511.5,-876.85 1505.5,-882.85 1499.5,-882.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1439.5" y="-839.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">脳組織壊死</text>
+</g>
+<!-- brain_necrosis&#45;&gt;cognitive_decline -->
+<g id="edge16" class="edge">
+<title>brain_necrosis&#45;&gt;cognitive_decline</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.56,-827.85C1632.09,-827.85 1861.5,-827.85 1861.5,-827.85 1861.5,-827.85 1861.5,-374.85 1861.5,-374.85 1861.5,-374.85 2040.94,-374.85 2040.94,-374.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2040.94,-380.1 2055.94,-374.85 2040.94,-369.6 2040.94,-380.1"/>
+</g>
+<!-- aphasia -->
+<g id="node9" class="node">
+<title>aphasia</title>
+<path fill="none" stroke="black" d="M1845.5,-521.85C1845.5,-521.85 1725.5,-521.85 1725.5,-521.85 1719.5,-521.85 1713.5,-515.85 1713.5,-509.85 1713.5,-509.85 1713.5,-461.85 1713.5,-461.85 1713.5,-455.85 1719.5,-449.85 1725.5,-449.85 1725.5,-449.85 1845.5,-449.85 1845.5,-449.85 1851.5,-449.85 1857.5,-455.85 1857.5,-461.85 1857.5,-461.85 1857.5,-509.85 1857.5,-509.85 1857.5,-515.85 1851.5,-521.85 1845.5,-521.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-478.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">失語</text>
+</g>
+<!-- brain_necrosis&#45;&gt;aphasia -->
+<g id="edge11" class="edge">
+<title>brain_necrosis&#45;&gt;aphasia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1396.5,-810.5C1396.5,-722.87 1396.5,-507.18 1396.5,-507.18 1396.5,-507.18 1696.12,-507.18 1696.12,-507.18"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.12,-512.43 1711.12,-507.18 1696.12,-501.93 1696.12,-512.43"/>
+</g>
+<!-- ataxia -->
 <g id="node11" class="node">
-<title>secretion_retention</title>
-<path fill="none" stroke="black" d="M132,-194.14C132,-194.14 12,-194.14 12,-194.14 6,-194.14 0,-188.14 0,-182.14 0,-182.14 0,-134.14 0,-134.14 0,-128.14 6,-122.14 12,-122.14 12,-122.14 132,-122.14 132,-122.14 138,-122.14 144,-128.14 144,-134.14 144,-134.14 144,-182.14 144,-182.14 144,-188.14 138,-194.14 132,-194.14"/>
-<text xml:space="preserve" text-anchor="middle" x="72" y="-150.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">気道分泌物貯留</text>
+<title>ataxia</title>
+<path fill="none" stroke="black" d="M2021.5,-987.85C2021.5,-987.85 1901.5,-987.85 1901.5,-987.85 1895.5,-987.85 1889.5,-981.85 1889.5,-975.85 1889.5,-975.85 1889.5,-927.85 1889.5,-927.85 1889.5,-921.85 1895.5,-915.85 1901.5,-915.85 1901.5,-915.85 2021.5,-915.85 2021.5,-915.85 2027.5,-915.85 2033.5,-921.85 2033.5,-927.85 2033.5,-927.85 2033.5,-975.85 2033.5,-975.85 2033.5,-981.85 2027.5,-987.85 2021.5,-987.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1961.5" y="-944.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">運動失調</text>
 </g>
-<!-- airway_obstruction -->
-<g id="node13" class="node">
-<title>airway_obstruction</title>
-<path fill="none" stroke="black" d="M301,-194.14C301,-194.14 181,-194.14 181,-194.14 175,-194.14 169,-188.14 169,-182.14 169,-182.14 169,-134.14 169,-134.14 169,-128.14 175,-122.14 181,-122.14 181,-122.14 301,-122.14 301,-122.14 307,-122.14 313,-128.14 313,-134.14 313,-134.14 313,-182.14 313,-182.14 313,-188.14 307,-194.14 301,-194.14"/>
-<text xml:space="preserve" text-anchor="middle" x="241" y="-150.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">気道閉塞</text>
+<!-- brain_necrosis&#45;&gt;ataxia -->
+<g id="edge14" class="edge">
+<title>brain_necrosis&#45;&gt;ataxia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1490.5,-883.33C1490.5,-911.73 1490.5,-946.35 1490.5,-946.35 1490.5,-946.35 1872.08,-946.35 1872.08,-946.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1872.08,-951.6 1887.08,-946.35 1872.08,-941.1 1872.08,-951.6"/>
 </g>
-<!-- secretion_retention&#45;&gt;airway_obstruction -->
-<g id="edge22" class="edge">
-<title>secretion_retention&#45;&gt;airway_obstruction</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M144.16,-158.14C144.16,-158.14 151.42,-158.14 151.42,-158.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="151.42,-163.39 166.42,-158.14 151.42,-152.89 151.42,-163.39"/>
+<!-- visual_deficit -->
+<g id="node16" class="node">
+<title>visual_deficit</title>
+<path fill="none" stroke="black" d="M1668.5,-917.85C1668.5,-917.85 1548.5,-917.85 1548.5,-917.85 1542.5,-917.85 1536.5,-911.85 1536.5,-905.85 1536.5,-905.85 1536.5,-857.85 1536.5,-857.85 1536.5,-851.85 1542.5,-845.85 1548.5,-845.85 1548.5,-845.85 1668.5,-845.85 1668.5,-845.85 1674.5,-845.85 1680.5,-851.85 1680.5,-857.85 1680.5,-857.85 1680.5,-905.85 1680.5,-905.85 1680.5,-911.85 1674.5,-917.85 1668.5,-917.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-874.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">視野障害</text>
 </g>
-<!-- atelectasis&#45;&gt;ventilation -->
+<!-- brain_necrosis&#45;&gt;visual_deficit -->
+<g id="edge13" class="edge">
+<title>brain_necrosis&#45;&gt;visual_deficit</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.66,-864.35C1511.66,-864.35 1518.92,-864.35 1518.92,-864.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1518.92,-869.6 1533.92,-864.35 1518.92,-859.1 1518.92,-869.6"/>
+</g>
+<!-- dysarthria -->
+<g id="node26" class="node">
+<title>dysarthria</title>
+<path fill="none" stroke="black" d="M1668.5,-677.85C1668.5,-677.85 1548.5,-677.85 1548.5,-677.85 1542.5,-677.85 1536.5,-671.85 1536.5,-665.85 1536.5,-665.85 1536.5,-617.85 1536.5,-617.85 1536.5,-611.85 1542.5,-605.85 1548.5,-605.85 1548.5,-605.85 1668.5,-605.85 1668.5,-605.85 1674.5,-605.85 1680.5,-611.85 1680.5,-617.85 1680.5,-617.85 1680.5,-665.85 1680.5,-665.85 1680.5,-671.85 1674.5,-677.85 1668.5,-677.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-634.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">構音障害</text>
+</g>
+<!-- brain_necrosis&#45;&gt;dysarthria -->
+<g id="edge12" class="edge">
+<title>brain_necrosis&#45;&gt;dysarthria</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1482.5,-810.46C1482.5,-757.34 1482.5,-664.85 1482.5,-664.85 1482.5,-664.85 1519.18,-664.85 1519.18,-664.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.18,-670.1 1534.18,-664.85 1519.18,-659.6 1519.18,-670.1"/>
+</g>
+<!-- brain_edema -->
+<g id="node32" class="node">
+<title>brain_edema</title>
+<path fill="none" stroke="black" d="M1668.5,-1058.85C1668.5,-1058.85 1548.5,-1058.85 1548.5,-1058.85 1542.5,-1058.85 1536.5,-1052.85 1536.5,-1046.85 1536.5,-1046.85 1536.5,-998.85 1536.5,-998.85 1536.5,-992.85 1542.5,-986.85 1548.5,-986.85 1548.5,-986.85 1668.5,-986.85 1668.5,-986.85 1674.5,-986.85 1680.5,-992.85 1680.5,-998.85 1680.5,-998.85 1680.5,-1046.85 1680.5,-1046.85 1680.5,-1052.85 1674.5,-1058.85 1668.5,-1058.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-1015.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">脳浮腫</text>
+</g>
+<!-- brain_necrosis&#45;&gt;brain_edema -->
+<g id="edge17" class="edge">
+<title>brain_necrosis&#45;&gt;brain_edema</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1470.5,-882.97C1470.5,-926.69 1470.5,-994.52 1470.5,-994.52 1470.5,-994.52 1519.15,-994.52 1519.15,-994.52"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.15,-999.77 1534.15,-994.52 1519.15,-989.27 1519.15,-999.77"/>
+</g>
+<!-- motor_deficit -->
+<g id="node38" class="node">
+<title>motor_deficit</title>
+<path fill="none" stroke="black" d="M1845.5,-917.85C1845.5,-917.85 1725.5,-917.85 1725.5,-917.85 1719.5,-917.85 1713.5,-911.85 1713.5,-905.85 1713.5,-905.85 1713.5,-857.85 1713.5,-857.85 1713.5,-851.85 1719.5,-845.85 1725.5,-845.85 1725.5,-845.85 1845.5,-845.85 1845.5,-845.85 1851.5,-845.85 1857.5,-851.85 1857.5,-857.85 1857.5,-857.85 1857.5,-905.85 1857.5,-905.85 1857.5,-911.85 1851.5,-917.85 1845.5,-917.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-874.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">運動麻痺</text>
+</g>
+<!-- brain_necrosis&#45;&gt;motor_deficit -->
+<g id="edge9" class="edge">
+<title>brain_necrosis&#45;&gt;motor_deficit</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.61,-836.85C1613.01,-836.85 1785.5,-836.85 1785.5,-836.85 1785.5,-836.85 1785.5,-837.72 1785.5,-837.72"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1780.25,-828.41 1785.5,-843.41 1790.75,-828.41 1780.25,-828.41"/>
+</g>
+<!-- sensory_deficit -->
+<g id="node39" class="node">
+<title>sensory_deficit</title>
+<path fill="none" stroke="black" d="M1845.5,-620.85C1845.5,-620.85 1725.5,-620.85 1725.5,-620.85 1719.5,-620.85 1713.5,-614.85 1713.5,-608.85 1713.5,-608.85 1713.5,-560.85 1713.5,-560.85 1713.5,-554.85 1719.5,-548.85 1725.5,-548.85 1725.5,-548.85 1845.5,-548.85 1845.5,-548.85 1851.5,-548.85 1857.5,-554.85 1857.5,-560.85 1857.5,-560.85 1857.5,-608.85 1857.5,-608.85 1857.5,-614.85 1851.5,-620.85 1845.5,-620.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-577.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">感覚障害</text>
+</g>
+<!-- brain_necrosis&#45;&gt;sensory_deficit -->
+<g id="edge10" class="edge">
+<title>brain_necrosis&#45;&gt;sensory_deficit</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1453.5,-810.43C1453.5,-739.31 1453.5,-588.85 1453.5,-588.85 1453.5,-588.85 1695.93,-588.85 1695.93,-588.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1695.93,-594.1 1710.93,-588.85 1695.93,-583.6 1695.93,-594.1"/>
+</g>
+<!-- swallowing_disorder -->
+<g id="node43" class="node">
+<title>swallowing_disorder</title>
+<path fill="none" stroke="black" d="M1668.5,-1241.85C1668.5,-1241.85 1548.5,-1241.85 1548.5,-1241.85 1542.5,-1241.85 1536.5,-1235.85 1536.5,-1229.85 1536.5,-1229.85 1536.5,-1181.85 1536.5,-1181.85 1536.5,-1175.85 1542.5,-1169.85 1548.5,-1169.85 1548.5,-1169.85 1668.5,-1169.85 1668.5,-1169.85 1674.5,-1169.85 1680.5,-1175.85 1680.5,-1181.85 1680.5,-1181.85 1680.5,-1229.85 1680.5,-1229.85 1680.5,-1235.85 1674.5,-1241.85 1668.5,-1241.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-1198.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">嚥下障害</text>
+</g>
+<!-- brain_necrosis&#45;&gt;swallowing_disorder -->
+<g id="edge15" class="edge">
+<title>brain_necrosis&#45;&gt;swallowing_disorder</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1449.5,-883.25C1449.5,-974.52 1449.5,-1205.85 1449.5,-1205.85 1449.5,-1205.85 1519.32,-1205.85 1519.32,-1205.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.32,-1211.1 1534.32,-1205.85 1519.32,-1200.6 1519.32,-1211.1"/>
+</g>
+<!-- cerebral_occlusion -->
+<g id="node8" class="node">
+<title>cerebral_occlusion</title>
+<path fill="none" stroke="black" d="M1161.5,-974.85C1161.5,-974.85 1041.5,-974.85 1041.5,-974.85 1035.5,-974.85 1029.5,-968.85 1029.5,-962.85 1029.5,-962.85 1029.5,-914.85 1029.5,-914.85 1029.5,-908.85 1035.5,-902.85 1041.5,-902.85 1041.5,-902.85 1161.5,-902.85 1161.5,-902.85 1167.5,-902.85 1173.5,-908.85 1173.5,-914.85 1173.5,-914.85 1173.5,-962.85 1173.5,-962.85 1173.5,-968.85 1167.5,-974.85 1161.5,-974.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1101.5" y="-931.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">脳血管閉塞</text>
+</g>
+<!-- cerebral_ischemia -->
+<g id="node24" class="node">
+<title>cerebral_ischemia</title>
+<path fill="none" stroke="black" d="M1330.5,-974.85C1330.5,-974.85 1210.5,-974.85 1210.5,-974.85 1204.5,-974.85 1198.5,-968.85 1198.5,-962.85 1198.5,-962.85 1198.5,-914.85 1198.5,-914.85 1198.5,-908.85 1204.5,-902.85 1210.5,-902.85 1210.5,-902.85 1330.5,-902.85 1330.5,-902.85 1336.5,-902.85 1342.5,-908.85 1342.5,-914.85 1342.5,-914.85 1342.5,-962.85 1342.5,-962.85 1342.5,-968.85 1336.5,-974.85 1330.5,-974.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-931.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">脳虚血</text>
+</g>
+<!-- cerebral_occlusion&#45;&gt;cerebral_ischemia -->
+<g id="edge20" class="edge">
+<title>cerebral_occlusion&#45;&gt;cerebral_ischemia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1173.66,-938.85C1173.66,-938.85 1180.92,-938.85 1180.92,-938.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1180.92,-944.1 1195.92,-938.85 1180.92,-933.6 1180.92,-944.1"/>
+</g>
+<!-- aphasia&#45;&gt;adl -->
 <g id="edge4" class="edge">
-<title>atelectasis&#45;&gt;ventilation</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M603,-282.61C603,-334.16 603,-422.14 603,-422.14 603,-422.14 658.38,-422.14 658.38,-422.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="658.38,-427.39 673.38,-422.14 658.38,-416.89 658.38,-427.39"/>
+<title>aphasia&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.94,-485.85C1996.51,-485.85 2285.5,-485.85 2285.5,-485.85 2285.5,-485.85 2285.5,-608.26 2285.5,-608.26"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2280.25,-608.26 2285.5,-623.26 2290.75,-608.26 2280.25,-608.26"/>
 </g>
-<!-- atelectasis&#45;&gt;chest_pain -->
-<g id="edge25" class="edge">
-<title>atelectasis&#45;&gt;chest_pain</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M651.16,-246.14C651.16,-246.14 658.42,-246.14 658.42,-246.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="658.42,-251.39 673.42,-246.14 658.42,-240.89 658.42,-251.39"/>
+<!-- gi_bleed -->
+<g id="node10" class="node">
+<title>gi_bleed</title>
+<path fill="none" stroke="black" d="M1668.5,-372.85C1668.5,-372.85 1548.5,-372.85 1548.5,-372.85 1542.5,-372.85 1536.5,-366.85 1536.5,-360.85 1536.5,-360.85 1536.5,-312.85 1536.5,-312.85 1536.5,-306.85 1542.5,-300.85 1548.5,-300.85 1548.5,-300.85 1668.5,-300.85 1668.5,-300.85 1674.5,-300.85 1680.5,-306.85 1680.5,-312.85 1680.5,-312.85 1680.5,-360.85 1680.5,-360.85 1680.5,-366.85 1674.5,-372.85 1668.5,-372.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-329.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">消化管出血</text>
 </g>
-<!-- atelectasis&#45;&gt;breath_sound_decrease -->
-<g id="edge24" class="edge">
-<title>atelectasis&#45;&gt;breath_sound_decrease</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M603,-209.67C603,-158.12 603,-70.14 603,-70.14 603,-70.14 658.38,-70.14 658.38,-70.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="658.38,-75.39 673.38,-70.14 658.38,-64.89 658.38,-75.39"/>
+<!-- anemia -->
+<g id="node52" class="node">
+<title>anemia</title>
+<path fill="none" stroke="black" d="M1845.5,-422.85C1845.5,-422.85 1725.5,-422.85 1725.5,-422.85 1719.5,-422.85 1713.5,-416.85 1713.5,-410.85 1713.5,-410.85 1713.5,-362.85 1713.5,-362.85 1713.5,-356.85 1719.5,-350.85 1725.5,-350.85 1725.5,-350.85 1845.5,-350.85 1845.5,-350.85 1851.5,-350.85 1857.5,-356.85 1857.5,-362.85 1857.5,-362.85 1857.5,-410.85 1857.5,-410.85 1857.5,-416.85 1851.5,-422.85 1845.5,-422.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-379.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">貧血</text>
 </g>
-<!-- alveolar_collapse -->
-<g id="node19" class="node">
-<title>alveolar_collapse</title>
-<path fill="none" stroke="black" d="M470,-194.14C470,-194.14 350,-194.14 350,-194.14 344,-194.14 338,-188.14 338,-182.14 338,-182.14 338,-134.14 338,-134.14 338,-128.14 344,-122.14 350,-122.14 350,-122.14 470,-122.14 470,-122.14 476,-122.14 482,-128.14 482,-134.14 482,-134.14 482,-182.14 482,-182.14 482,-188.14 476,-194.14 470,-194.14"/>
-<text xml:space="preserve" text-anchor="middle" x="410" y="-150.41" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">肺胞虚脱</text>
+<!-- gi_bleed&#45;&gt;anemia -->
+<g id="edge30" class="edge">
+<title>gi_bleed&#45;&gt;anemia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-361.85C1680.75,-361.85 1696.08,-361.85 1696.08,-361.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-367.1 1711.08,-361.85 1696.08,-356.6 1696.08,-367.1"/>
 </g>
-<!-- airway_obstruction&#45;&gt;alveolar_collapse -->
-<g id="edge2" class="edge">
-<title>airway_obstruction&#45;&gt;alveolar_collapse</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M313.16,-158.14C313.16,-158.14 320.42,-158.14 320.42,-158.14"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="320.42,-163.39 335.42,-158.14 320.42,-152.89 320.42,-163.39"/>
+<!-- shock_hypovolemic -->
+<g id="node54" class="node">
+<title>shock_hypovolemic</title>
+<path fill="none" stroke="black" d="M1852.75,-323.85C1852.75,-323.85 1718.25,-323.85 1718.25,-323.85 1712.25,-323.85 1706.25,-317.85 1706.25,-311.85 1706.25,-311.85 1706.25,-263.85 1706.25,-263.85 1706.25,-257.85 1712.25,-251.85 1718.25,-251.85 1718.25,-251.85 1852.75,-251.85 1852.75,-251.85 1858.75,-251.85 1864.75,-257.85 1864.75,-263.85 1864.75,-263.85 1864.75,-311.85 1864.75,-311.85 1864.75,-317.85 1858.75,-323.85 1852.75,-323.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-280.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">低容量性ショック</text>
+</g>
+<!-- gi_bleed&#45;&gt;shock_hypovolemic -->
+<g id="edge31" class="edge">
+<title>gi_bleed&#45;&gt;shock_hypovolemic</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-312.35C1680.75,-312.35 1688.87,-312.35 1688.87,-312.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1688.87,-317.6 1703.87,-312.35 1688.87,-307.1 1688.87,-317.6"/>
+</g>
+<!-- ataxia&#45;&gt;adl -->
+<g id="edge5" class="edge">
+<title>ataxia&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2033.59,-951.85C2132.86,-951.85 2299.5,-951.85 2299.5,-951.85 2299.5,-951.85 2299.5,-715.4 2299.5,-715.4"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2304.75,-715.4 2299.5,-700.4 2294.25,-715.4 2304.75,-715.4"/>
+</g>
+<!-- lactic_acidosis -->
+<g id="node12" class="node">
+<title>lactic_acidosis</title>
+<path fill="none" stroke="black" d="M1845.5,-1622.85C1845.5,-1622.85 1725.5,-1622.85 1725.5,-1622.85 1719.5,-1622.85 1713.5,-1616.85 1713.5,-1610.85 1713.5,-1610.85 1713.5,-1562.85 1713.5,-1562.85 1713.5,-1556.85 1719.5,-1550.85 1725.5,-1550.85 1725.5,-1550.85 1845.5,-1550.85 1845.5,-1550.85 1851.5,-1550.85 1857.5,-1556.85 1857.5,-1562.85 1857.5,-1562.85 1857.5,-1610.85 1857.5,-1610.85 1857.5,-1616.85 1851.5,-1622.85 1845.5,-1622.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-1579.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">乳酸上昇</text>
+</g>
+<!-- coldness -->
+<g id="node13" class="node">
+<title>coldness</title>
+<path fill="none" stroke="black" d="M1330.5,-174.85C1330.5,-174.85 1210.5,-174.85 1210.5,-174.85 1204.5,-174.85 1198.5,-168.85 1198.5,-162.85 1198.5,-162.85 1198.5,-114.85 1198.5,-114.85 1198.5,-108.85 1204.5,-102.85 1210.5,-102.85 1210.5,-102.85 1330.5,-102.85 1330.5,-102.85 1336.5,-102.85 1342.5,-108.85 1342.5,-114.85 1342.5,-114.85 1342.5,-162.85 1342.5,-162.85 1342.5,-168.85 1336.5,-174.85 1330.5,-174.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-131.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">冷感</text>
+</g>
+<!-- wound_healing_delay -->
+<g id="node14" class="node">
+<title>wound_healing_delay</title>
+<path fill="none" stroke="black" d="M1330.5,-372.85C1330.5,-372.85 1210.5,-372.85 1210.5,-372.85 1204.5,-372.85 1198.5,-366.85 1198.5,-360.85 1198.5,-360.85 1198.5,-312.85 1198.5,-312.85 1198.5,-306.85 1204.5,-300.85 1210.5,-300.85 1210.5,-300.85 1330.5,-300.85 1330.5,-300.85 1336.5,-300.85 1342.5,-306.85 1342.5,-312.85 1342.5,-312.85 1342.5,-360.85 1342.5,-360.85 1342.5,-366.85 1336.5,-372.85 1330.5,-372.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-329.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">創傷治癒遅延</text>
+</g>
+<!-- ulcer -->
+<g id="node22" class="node">
+<title>ulcer</title>
+<path fill="none" stroke="black" d="M1499.5,-372.85C1499.5,-372.85 1379.5,-372.85 1379.5,-372.85 1373.5,-372.85 1367.5,-366.85 1367.5,-360.85 1367.5,-360.85 1367.5,-312.85 1367.5,-312.85 1367.5,-306.85 1373.5,-300.85 1379.5,-300.85 1379.5,-300.85 1499.5,-300.85 1499.5,-300.85 1505.5,-300.85 1511.5,-306.85 1511.5,-312.85 1511.5,-312.85 1511.5,-360.85 1511.5,-360.85 1511.5,-366.85 1505.5,-372.85 1499.5,-372.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1439.5" y="-329.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">潰瘍</text>
+</g>
+<!-- wound_healing_delay&#45;&gt;ulcer -->
+<g id="edge66" class="edge">
+<title>wound_healing_delay&#45;&gt;ulcer</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1342.66,-336.85C1342.66,-336.85 1349.92,-336.85 1349.92,-336.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1349.92,-342.1 1364.92,-336.85 1349.92,-331.6 1349.92,-342.1"/>
+</g>
+<!-- aspiration -->
+<g id="node15" class="node">
+<title>aspiration</title>
+<path fill="none" stroke="black" d="M2021.5,-1389.85C2021.5,-1389.85 1901.5,-1389.85 1901.5,-1389.85 1895.5,-1389.85 1889.5,-1383.85 1889.5,-1377.85 1889.5,-1377.85 1889.5,-1329.85 1889.5,-1329.85 1889.5,-1323.85 1895.5,-1317.85 1901.5,-1317.85 1901.5,-1317.85 2021.5,-1317.85 2021.5,-1317.85 2027.5,-1317.85 2033.5,-1323.85 2033.5,-1329.85 2033.5,-1329.85 2033.5,-1377.85 2033.5,-1377.85 2033.5,-1383.85 2027.5,-1389.85 2021.5,-1389.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1961.5" y="-1346.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">誤嚥</text>
+</g>
+<!-- walking_difficulty -->
+<g id="node17" class="node">
+<title>walking_difficulty</title>
+<path fill="none" stroke="black" d="M2021.5,-146.85C2021.5,-146.85 1901.5,-146.85 1901.5,-146.85 1895.5,-146.85 1889.5,-140.85 1889.5,-134.85 1889.5,-134.85 1889.5,-86.85 1889.5,-86.85 1889.5,-80.85 1895.5,-74.85 1901.5,-74.85 1901.5,-74.85 2021.5,-74.85 2021.5,-74.85 2027.5,-74.85 2033.5,-80.85 2033.5,-86.85 2033.5,-86.85 2033.5,-134.85 2033.5,-134.85 2033.5,-140.85 2027.5,-146.85 2021.5,-146.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1961.5" y="-103.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">歩行困難</text>
+</g>
+<!-- walking_difficulty&#45;&gt;adl -->
+<g id="edge70" class="edge">
+<title>walking_difficulty&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2033.61,-110.85C2144.07,-110.85 2342.5,-110.85 2342.5,-110.85 2342.5,-110.85 2342.5,-608.58 2342.5,-608.58"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2337.25,-608.58 2342.5,-623.58 2347.75,-608.58 2337.25,-608.58"/>
+</g>
+<!-- thrombus&#45;&gt;cerebral_occlusion -->
+<g id="edge52" class="edge">
+<title>thrombus&#45;&gt;cerebral_occlusion</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1004.66,-956.35C1004.66,-956.35 1011.92,-956.35 1011.92,-956.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1011.92,-961.6 1026.92,-956.35 1011.92,-951.1 1011.92,-961.6"/>
+</g>
+<!-- coronary_occlusion -->
+<g id="node37" class="node">
+<title>coronary_occlusion</title>
+<path fill="none" stroke="black" d="M1161.5,-1118.85C1161.5,-1118.85 1041.5,-1118.85 1041.5,-1118.85 1035.5,-1118.85 1029.5,-1112.85 1029.5,-1106.85 1029.5,-1106.85 1029.5,-1058.85 1029.5,-1058.85 1029.5,-1052.85 1035.5,-1046.85 1041.5,-1046.85 1041.5,-1046.85 1161.5,-1046.85 1161.5,-1046.85 1167.5,-1046.85 1173.5,-1052.85 1173.5,-1058.85 1173.5,-1058.85 1173.5,-1106.85 1173.5,-1106.85 1173.5,-1112.85 1167.5,-1118.85 1161.5,-1118.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1101.5" y="-1075.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">冠動脈閉塞</text>
+</g>
+<!-- thrombus&#45;&gt;coronary_occlusion -->
+<g id="edge51" class="edge">
+<title>thrombus&#45;&gt;coronary_occlusion</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1004.66,-1002.18C1050.6,-1002.18 1101.5,-1002.18 1101.5,-1002.18 1101.5,-1002.18 1101.5,-1029.64 1101.5,-1029.64"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1096.25,-1029.64 1101.5,-1044.64 1106.75,-1029.64 1096.25,-1029.64"/>
+</g>
+<!-- appetite_loss -->
+<g id="node21" class="node">
+<title>appetite_loss</title>
+<path fill="none" stroke="black" d="M1845.5,-1523.85C1845.5,-1523.85 1725.5,-1523.85 1725.5,-1523.85 1719.5,-1523.85 1713.5,-1517.85 1713.5,-1511.85 1713.5,-1511.85 1713.5,-1463.85 1713.5,-1463.85 1713.5,-1457.85 1719.5,-1451.85 1725.5,-1451.85 1725.5,-1451.85 1845.5,-1451.85 1845.5,-1451.85 1851.5,-1451.85 1857.5,-1457.85 1857.5,-1463.85 1857.5,-1463.85 1857.5,-1511.85 1857.5,-1511.85 1857.5,-1517.85 1851.5,-1523.85 1845.5,-1523.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-1480.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">食欲低下</text>
+</g>
+<!-- nausea&#45;&gt;appetite_loss -->
+<g id="edge54" class="edge">
+<title>nausea&#45;&gt;appetite_loss</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-1466.85C1680.75,-1466.85 1696.08,-1466.85 1696.08,-1466.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-1472.1 1711.08,-1466.85 1696.08,-1461.6 1696.08,-1472.1"/>
+</g>
+<!-- vomiting -->
+<g id="node56" class="node">
+<title>vomiting</title>
+<path fill="none" stroke="black" d="M1845.5,-1424.85C1845.5,-1424.85 1725.5,-1424.85 1725.5,-1424.85 1719.5,-1424.85 1713.5,-1418.85 1713.5,-1412.85 1713.5,-1412.85 1713.5,-1364.85 1713.5,-1364.85 1713.5,-1358.85 1719.5,-1352.85 1725.5,-1352.85 1725.5,-1352.85 1845.5,-1352.85 1845.5,-1352.85 1851.5,-1352.85 1857.5,-1358.85 1857.5,-1364.85 1857.5,-1364.85 1857.5,-1412.85 1857.5,-1412.85 1857.5,-1418.85 1851.5,-1424.85 1845.5,-1424.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-1381.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">嘔吐</text>
+</g>
+<!-- nausea&#45;&gt;vomiting -->
+<g id="edge41" class="edge">
+<title>nausea&#45;&gt;vomiting</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-1417.35C1680.75,-1417.35 1696.08,-1417.35 1696.08,-1417.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-1422.6 1711.08,-1417.35 1696.08,-1412.1 1696.08,-1422.6"/>
+</g>
+<!-- delirium -->
+<g id="node20" class="node">
+<title>delirium</title>
+<path fill="none" stroke="black" d="M2190.5,-1101.85C2190.5,-1101.85 2070.5,-1101.85 2070.5,-1101.85 2064.5,-1101.85 2058.5,-1095.85 2058.5,-1089.85 2058.5,-1089.85 2058.5,-1041.85 2058.5,-1041.85 2058.5,-1035.85 2064.5,-1029.85 2070.5,-1029.85 2070.5,-1029.85 2190.5,-1029.85 2190.5,-1029.85 2196.5,-1029.85 2202.5,-1035.85 2202.5,-1041.85 2202.5,-1041.85 2202.5,-1089.85 2202.5,-1089.85 2202.5,-1095.85 2196.5,-1101.85 2190.5,-1101.85"/>
+<text xml:space="preserve" text-anchor="middle" x="2130.5" y="-1058.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">せん妄</text>
 </g>
 <!-- delirium&#45;&gt;adl -->
-<g id="edge6" class="edge">
+<g id="edge24" class="edge">
 <title>delirium&#45;&gt;adl</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1496.16,-598.14C1542.1,-598.14 1593,-598.14 1593,-598.14 1593,-598.14 1593,-870.57 1593,-870.57"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1587.75,-870.57 1593,-885.57 1598.25,-870.57 1587.75,-870.57"/>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2202.78,-1065.85C2261.8,-1065.85 2335.5,-1065.85 2335.5,-1065.85 2335.5,-1065.85 2335.5,-715.18 2335.5,-715.18"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2340.75,-715.18 2335.5,-700.18 2330.25,-715.18 2340.75,-715.18"/>
+</g>
+<!-- ulcer&#45;&gt;gi_bleed -->
+<g id="edge53" class="edge">
+<title>ulcer&#45;&gt;gi_bleed</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1511.66,-336.85C1511.66,-336.85 1518.92,-336.85 1518.92,-336.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1518.92,-342.1 1533.92,-336.85 1518.92,-331.6 1518.92,-342.1"/>
+</g>
+<!-- ulcer&#45;&gt;necrosis -->
+<g id="edge68" class="edge">
+<title>ulcer&#45;&gt;necrosis</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1425.5,-373.05C1425.5,-467.53 1425.5,-714.35 1425.5,-714.35 1425.5,-714.35 1519.05,-714.35 1519.05,-714.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.05,-719.6 1534.05,-714.35 1519.05,-709.1 1519.05,-719.6"/>
+</g>
+<!-- infection -->
+<g id="node40" class="node">
+<title>infection</title>
+<path fill="none" stroke="black" d="M1668.5,-182.85C1668.5,-182.85 1548.5,-182.85 1548.5,-182.85 1542.5,-182.85 1536.5,-176.85 1536.5,-170.85 1536.5,-170.85 1536.5,-122.85 1536.5,-122.85 1536.5,-116.85 1542.5,-110.85 1548.5,-110.85 1548.5,-110.85 1668.5,-110.85 1668.5,-110.85 1674.5,-110.85 1680.5,-116.85 1680.5,-122.85 1680.5,-122.85 1680.5,-170.85 1680.5,-170.85 1680.5,-176.85 1674.5,-182.85 1668.5,-182.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1608.5" y="-139.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">感染</text>
+</g>
+<!-- ulcer&#45;&gt;infection -->
+<g id="edge67" class="edge">
+<title>ulcer&#45;&gt;infection</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1439.5,-300.6C1439.5,-253.95 1439.5,-178.85 1439.5,-178.85 1439.5,-178.85 1519.22,-178.85 1519.22,-178.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1519.22,-184.1 1534.22,-178.85 1519.22,-173.6 1519.22,-184.1"/>
+</g>
+<!-- pulse_decrease -->
+<g id="node23" class="node">
+<title>pulse_decrease</title>
+<path fill="none" stroke="black" d="M1161.5,-723.85C1161.5,-723.85 1041.5,-723.85 1041.5,-723.85 1035.5,-723.85 1029.5,-717.85 1029.5,-711.85 1029.5,-711.85 1029.5,-663.85 1029.5,-663.85 1029.5,-657.85 1035.5,-651.85 1041.5,-651.85 1041.5,-651.85 1161.5,-651.85 1161.5,-651.85 1167.5,-651.85 1173.5,-657.85 1173.5,-663.85 1173.5,-663.85 1173.5,-711.85 1173.5,-711.85 1173.5,-717.85 1167.5,-723.85 1161.5,-723.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1101.5" y="-680.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">末梢脈拍減弱</text>
+</g>
+<!-- cerebral_ischemia&#45;&gt;brain_necrosis -->
+<g id="edge18" class="edge">
+<title>cerebral_ischemia&#45;&gt;brain_necrosis</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1342.56,-910.35C1384.63,-910.35 1429.5,-910.35 1429.5,-910.35 1429.5,-910.35 1429.5,-900.17 1429.5,-900.17"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1434.75,-900.17 1429.5,-885.17 1424.25,-900.17 1434.75,-900.17"/>
+</g>
+<!-- cerebral_ischemia&#45;&gt;consciousness -->
+<g id="edge19" class="edge">
+<title>cerebral_ischemia&#45;&gt;consciousness</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1270.5,-975.3C1270.5,-1024.71 1270.5,-1106.85 1270.5,-1106.85 1270.5,-1106.85 1872.06,-1106.85 1872.06,-1106.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1872.06,-1112.1 1887.06,-1106.85 1872.06,-1101.6 1872.06,-1112.1"/>
+</g>
+<!-- numbness -->
+<g id="node25" class="node">
+<title>numbness</title>
+<path fill="none" stroke="black" d="M1330.5,-75.85C1330.5,-75.85 1210.5,-75.85 1210.5,-75.85 1204.5,-75.85 1198.5,-69.85 1198.5,-63.85 1198.5,-63.85 1198.5,-15.85 1198.5,-15.85 1198.5,-9.85 1204.5,-3.85 1210.5,-3.85 1210.5,-3.85 1330.5,-3.85 1330.5,-3.85 1336.5,-3.85 1342.5,-9.85 1342.5,-15.85 1342.5,-15.85 1342.5,-63.85 1342.5,-63.85 1342.5,-69.85 1336.5,-75.85 1330.5,-75.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-32.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">しびれ</text>
+</g>
+<!-- consciousness&#45;&gt;delirium -->
+<g id="edge22" class="edge">
+<title>consciousness&#45;&gt;delirium</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2033.66,-1083.85C2033.66,-1083.85 2040.92,-1083.85 2040.92,-1083.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2040.92,-1089.1 2055.92,-1083.85 2040.92,-1078.6 2040.92,-1089.1"/>
+</g>
+<!-- antiplatelet -->
+<g id="node28" class="node">
+<title>antiplatelet</title>
+<path fill="none" stroke="black" d="M485.5,-839.85C485.5,-839.85 365.5,-839.85 365.5,-839.85 359.5,-839.85 353.5,-833.85 353.5,-827.85 353.5,-827.85 353.5,-779.85 353.5,-779.85 353.5,-773.85 359.5,-767.85 365.5,-767.85 365.5,-767.85 485.5,-767.85 485.5,-767.85 491.5,-767.85 497.5,-773.85 497.5,-779.85 497.5,-779.85 497.5,-827.85 497.5,-827.85 497.5,-833.85 491.5,-839.85 485.5,-839.85"/>
+<text xml:space="preserve" text-anchor="middle" x="425.5" y="-796.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">抗血小板薬</text>
+</g>
+<!-- skin_pale -->
+<g id="node29" class="node">
+<title>skin_pale</title>
+<path fill="none" stroke="black" d="M1161.5,-623.85C1161.5,-623.85 1041.5,-623.85 1041.5,-623.85 1035.5,-623.85 1029.5,-617.85 1029.5,-611.85 1029.5,-611.85 1029.5,-563.85 1029.5,-563.85 1029.5,-557.85 1035.5,-551.85 1041.5,-551.85 1041.5,-551.85 1161.5,-551.85 1161.5,-551.85 1167.5,-551.85 1173.5,-557.85 1173.5,-563.85 1173.5,-563.85 1173.5,-611.85 1173.5,-611.85 1173.5,-617.85 1167.5,-623.85 1161.5,-623.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1101.5" y="-580.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">皮膚蒼白</text>
+</g>
+<!-- intermittent_claudication -->
+<g id="node30" class="node">
+<title>intermittent_claudication</title>
+<path fill="none" stroke="black" d="M1330.5,-273.85C1330.5,-273.85 1210.5,-273.85 1210.5,-273.85 1204.5,-273.85 1198.5,-267.85 1198.5,-261.85 1198.5,-261.85 1198.5,-213.85 1198.5,-213.85 1198.5,-207.85 1204.5,-201.85 1210.5,-201.85 1210.5,-201.85 1330.5,-201.85 1330.5,-201.85 1336.5,-201.85 1342.5,-207.85 1342.5,-213.85 1342.5,-213.85 1342.5,-261.85 1342.5,-261.85 1342.5,-267.85 1336.5,-273.85 1330.5,-273.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-230.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">間欠性跛行</text>
+</g>
+<!-- intermittent_claudication&#45;&gt;walking_difficulty -->
+<g id="edge69" class="edge">
+<title>intermittent_claudication&#45;&gt;walking_difficulty</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1342.78,-226.85C1513.13,-226.85 1925.5,-226.85 1925.5,-226.85 1925.5,-226.85 1925.5,-164.35 1925.5,-164.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1930.75,-164.35 1925.5,-149.35 1920.25,-164.35 1930.75,-164.35"/>
+</g>
+<!-- brain_edema&#45;&gt;increased_icp -->
+<g id="edge8" class="edge">
+<title>brain_edema&#45;&gt;increased_icp</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-1043.85C1680.75,-1043.85 1696.08,-1043.85 1696.08,-1043.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-1049.1 1711.08,-1043.85 1696.08,-1038.6 1696.08,-1049.1"/>
+</g>
+<!-- troponin -->
+<g id="node33" class="node">
+<title>troponin</title>
+<path fill="none" stroke="black" d="M1845.5,-719.85C1845.5,-719.85 1725.5,-719.85 1725.5,-719.85 1719.5,-719.85 1713.5,-713.85 1713.5,-707.85 1713.5,-707.85 1713.5,-659.85 1713.5,-659.85 1713.5,-653.85 1719.5,-647.85 1725.5,-647.85 1725.5,-647.85 1845.5,-647.85 1845.5,-647.85 1851.5,-647.85 1857.5,-653.85 1857.5,-659.85 1857.5,-659.85 1857.5,-707.85 1857.5,-707.85 1857.5,-713.85 1851.5,-719.85 1845.5,-719.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-676.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">トロポニン上昇</text>
+</g>
+<!-- tissue_ischemia -->
+<g id="node34" class="node">
+<title>tissue_ischemia</title>
+<path fill="none" stroke="black" d="M1161.5,-372.85C1161.5,-372.85 1041.5,-372.85 1041.5,-372.85 1035.5,-372.85 1029.5,-366.85 1029.5,-360.85 1029.5,-360.85 1029.5,-312.85 1029.5,-312.85 1029.5,-306.85 1035.5,-300.85 1041.5,-300.85 1041.5,-300.85 1161.5,-300.85 1161.5,-300.85 1167.5,-300.85 1173.5,-306.85 1173.5,-312.85 1173.5,-312.85 1173.5,-360.85 1173.5,-360.85 1173.5,-366.85 1167.5,-372.85 1161.5,-372.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1101.5" y="-329.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">組織虚血</text>
+</g>
+<!-- tissue_ischemia&#45;&gt;coldness -->
+<g id="edge60" class="edge">
+<title>tissue_ischemia&#45;&gt;coldness</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1101.5,-300.53C1101.5,-243.37 1101.5,-138.85 1101.5,-138.85 1101.5,-138.85 1181.22,-138.85 1181.22,-138.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1181.22,-144.1 1196.22,-138.85 1181.22,-133.6 1181.22,-144.1"/>
+</g>
+<!-- tissue_ischemia&#45;&gt;wound_healing_delay -->
+<g id="edge65" class="edge">
+<title>tissue_ischemia&#45;&gt;wound_healing_delay</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1173.66,-336.85C1173.66,-336.85 1180.92,-336.85 1180.92,-336.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1180.92,-342.1 1195.92,-336.85 1180.92,-331.6 1180.92,-342.1"/>
+</g>
+<!-- tissue_ischemia&#45;&gt;numbness -->
+<g id="edge61" class="edge">
+<title>tissue_ischemia&#45;&gt;numbness</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1065.5,-300.43C1065.5,-221.12 1065.5,-39.85 1065.5,-39.85 1065.5,-39.85 1181.11,-39.85 1181.11,-39.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1181.11,-45.1 1196.11,-39.85 1181.11,-34.6 1181.11,-45.1"/>
+</g>
+<!-- tissue_ischemia&#45;&gt;intermittent_claudication -->
+<g id="edge63" class="edge">
+<title>tissue_ischemia&#45;&gt;intermittent_claudication</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1137.5,-300.55C1137.5,-272.29 1137.5,-237.85 1137.5,-237.85 1137.5,-237.85 1181.04,-237.85 1181.04,-237.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1181.04,-243.1 1196.04,-237.85 1181.04,-232.6 1181.04,-243.1"/>
+</g>
+<!-- rest_pain -->
+<g id="node46" class="node">
+<title>rest_pain</title>
+<path fill="none" stroke="black" d="M1330.5,-571.85C1330.5,-571.85 1210.5,-571.85 1210.5,-571.85 1204.5,-571.85 1198.5,-565.85 1198.5,-559.85 1198.5,-559.85 1198.5,-511.85 1198.5,-511.85 1198.5,-505.85 1204.5,-499.85 1210.5,-499.85 1210.5,-499.85 1330.5,-499.85 1330.5,-499.85 1336.5,-499.85 1342.5,-505.85 1342.5,-511.85 1342.5,-511.85 1342.5,-559.85 1342.5,-559.85 1342.5,-565.85 1336.5,-571.85 1330.5,-571.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-528.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">安静時疼痛</text>
+</g>
+<!-- tissue_ischemia&#45;&gt;rest_pain -->
+<g id="edge64" class="edge">
+<title>tissue_ischemia&#45;&gt;rest_pain</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1077.5,-373.29C1077.5,-428.21 1077.5,-525.85 1077.5,-525.85 1077.5,-525.85 1180.97,-525.85 1180.97,-525.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1180.97,-531.1 1195.97,-525.85 1180.97,-520.6 1180.97,-531.1"/>
+</g>
+<!-- ischemic_pain -->
+<g id="node57" class="node">
+<title>ischemic_pain</title>
+<path fill="none" stroke="black" d="M1330.5,-471.85C1330.5,-471.85 1210.5,-471.85 1210.5,-471.85 1204.5,-471.85 1198.5,-465.85 1198.5,-459.85 1198.5,-459.85 1198.5,-411.85 1198.5,-411.85 1198.5,-405.85 1204.5,-399.85 1210.5,-399.85 1210.5,-399.85 1330.5,-399.85 1330.5,-399.85 1336.5,-399.85 1342.5,-405.85 1342.5,-411.85 1342.5,-411.85 1342.5,-459.85 1342.5,-459.85 1342.5,-465.85 1336.5,-471.85 1330.5,-471.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1270.5" y="-428.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">虚血性疼痛</text>
+</g>
+<!-- tissue_ischemia&#45;&gt;ischemic_pain -->
+<g id="edge62" class="edge">
+<title>tissue_ischemia&#45;&gt;ischemic_pain</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1125.5,-373.15C1125.5,-401.41 1125.5,-435.85 1125.5,-435.85 1125.5,-435.85 1180.88,-435.85 1180.88,-435.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1180.88,-441.1 1195.88,-435.85 1180.88,-430.6 1180.88,-441.1"/>
+</g>
+<!-- necrosis&#45;&gt;aphasia -->
+<g id="edge46" class="edge">
+<title>necrosis&#45;&gt;aphasia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.89,-708.6C1684.4,-708.6 1686.5,-708.6 1686.5,-708.6 1686.5,-708.6 1686.5,-514.52 1686.5,-514.52 1686.5,-514.52 1695.91,-514.52 1695.91,-514.52"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1695.91,-519.77 1710.91,-514.52 1695.91,-509.27 1695.91,-519.77"/>
+</g>
+<!-- necrosis&#45;&gt;troponin -->
+<g id="edge42" class="edge">
+<title>necrosis&#45;&gt;troponin</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-716.1C1680.75,-716.1 1696.08,-716.1 1696.08,-716.1"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-721.35 1711.08,-716.1 1696.08,-710.85 1696.08,-721.35"/>
+</g>
+<!-- necrosis&#45;&gt;motor_deficit -->
+<g id="edge44" class="edge">
+<title>necrosis&#45;&gt;motor_deficit</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.64,-756.85C1691.69,-756.85 1699.5,-756.85 1699.5,-756.85 1699.5,-756.85 1699.5,-881.85 1699.5,-881.85 1699.5,-881.85 1700.88,-881.85 1700.88,-881.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.2,-887.1 1711.2,-881.85 1696.2,-876.6 1696.2,-887.1"/>
+</g>
+<!-- necrosis&#45;&gt;sensory_deficit -->
+<g id="edge45" class="edge">
+<title>necrosis&#45;&gt;sensory_deficit</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.96,-712.35C1688.51,-712.35 1693.5,-712.35 1693.5,-712.35 1693.5,-712.35 1693.5,-613.35 1693.5,-613.35 1693.5,-613.35 1695.89,-613.35 1695.89,-613.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1695.89,-618.6 1710.89,-613.35 1695.89,-608.1 1695.89,-618.6"/>
+</g>
+<!-- contractility↓ -->
+<g id="node58" class="node">
+<title>contractility↓</title>
+<path fill="none" stroke="black" d="M1845.5,-818.85C1845.5,-818.85 1725.5,-818.85 1725.5,-818.85 1719.5,-818.85 1713.5,-812.85 1713.5,-806.85 1713.5,-806.85 1713.5,-758.85 1713.5,-758.85 1713.5,-752.85 1719.5,-746.85 1725.5,-746.85 1725.5,-746.85 1845.5,-746.85 1845.5,-746.85 1851.5,-746.85 1857.5,-752.85 1857.5,-758.85 1857.5,-758.85 1857.5,-806.85 1857.5,-806.85 1857.5,-812.85 1851.5,-818.85 1845.5,-818.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-775.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">収縮力低下</text>
+</g>
+<!-- necrosis&#45;&gt;contractility↓ -->
+<g id="edge43" class="edge">
+<title>necrosis&#45;&gt;contractility↓</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-766.85C1680.75,-766.85 1696.08,-766.85 1696.08,-766.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-772.1 1711.08,-766.85 1696.08,-761.6 1696.08,-772.1"/>
+</g>
+<!-- fatigue -->
+<g id="node36" class="node">
+<title>fatigue</title>
+<path fill="none" stroke="black" d="M2190.5,-662.85C2190.5,-662.85 2070.5,-662.85 2070.5,-662.85 2064.5,-662.85 2058.5,-656.85 2058.5,-650.85 2058.5,-650.85 2058.5,-602.85 2058.5,-602.85 2058.5,-596.85 2064.5,-590.85 2070.5,-590.85 2070.5,-590.85 2190.5,-590.85 2190.5,-590.85 2196.5,-590.85 2202.5,-596.85 2202.5,-602.85 2202.5,-602.85 2202.5,-650.85 2202.5,-650.85 2202.5,-656.85 2196.5,-662.85 2190.5,-662.85"/>
+<text xml:space="preserve" text-anchor="middle" x="2130.5" y="-619.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">倦怠感</text>
 </g>
 <!-- fatigue&#45;&gt;adl -->
-<g id="edge12" class="edge">
+<g id="edge29" class="edge">
 <title>fatigue&#45;&gt;adl</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1460,-1075.97C1460,-1030.38 1460,-957.89 1460,-957.89 1460,-957.89 1503.54,-957.89 1503.54,-957.89"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1503.54,-963.14 1518.54,-957.89 1503.54,-952.64 1503.54,-963.14"/>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2202.66,-644.35C2202.66,-644.35 2209.92,-644.35 2209.92,-644.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2209.92,-649.6 2224.92,-644.35 2209.92,-639.1 2209.92,-649.6"/>
 </g>
-<!-- encephalopathy&#45;&gt;delirium -->
-<g id="edge10" class="edge">
-<title>encephalopathy&#45;&gt;delirium</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1279,-421.2C1279,-476.13 1279,-574.47 1279,-574.47 1279,-574.47 1334.38,-574.47 1334.38,-574.47"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1334.38,-579.72 1349.38,-574.47 1334.38,-569.22 1334.38,-579.72"/>
+<!-- coronary_occlusion&#45;&gt;ischemia -->
+<g id="edge23" class="edge">
+<title>coronary_occlusion&#45;&gt;ischemia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1173.92,-1112.85C1258.94,-1112.85 1388.5,-1112.85 1388.5,-1112.85 1388.5,-1112.85 1388.5,-1258.23 1388.5,-1258.23"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1383.25,-1258.23 1388.5,-1273.23 1393.75,-1258.23 1383.25,-1258.23"/>
 </g>
-<!-- alveolar_collapse&#45;&gt;atelectasis -->
+<!-- motor_deficit&#45;&gt;adl -->
+<g id="edge40" class="edge">
+<title>motor_deficit&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.84,-880.85C1991.46,-880.85 2263.5,-880.85 2263.5,-880.85 2263.5,-880.85 2263.5,-715.13 2263.5,-715.13"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2268.75,-715.13 2263.5,-700.13 2258.25,-715.13 2268.75,-715.13"/>
+</g>
+<!-- sensory_deficit&#45;&gt;adl -->
+<g id="edge49" class="edge">
+<title>sensory_deficit&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.8,-569.85C1989.83,-569.85 2256.5,-569.85 2256.5,-569.85 2256.5,-569.85 2256.5,-608.37 2256.5,-608.37"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2251.25,-608.37 2256.5,-623.37 2261.75,-608.37 2251.25,-608.37"/>
+</g>
+<!-- foot_care -->
+<g id="node44" class="node">
+<title>foot_care</title>
+<path fill="none" stroke="black" d="M1845.5,-182.85C1845.5,-182.85 1725.5,-182.85 1725.5,-182.85 1719.5,-182.85 1713.5,-176.85 1713.5,-170.85 1713.5,-170.85 1713.5,-122.85 1713.5,-122.85 1713.5,-116.85 1719.5,-110.85 1725.5,-110.85 1725.5,-110.85 1845.5,-110.85 1845.5,-110.85 1851.5,-110.85 1857.5,-116.85 1857.5,-122.85 1857.5,-122.85 1857.5,-170.85 1857.5,-170.85 1857.5,-176.85 1851.5,-182.85 1845.5,-182.85"/>
+<text xml:space="preserve" text-anchor="middle" x="1785.5" y="-139.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">フットケア</text>
+</g>
+<!-- infection&#45;&gt;foot_care -->
+<g id="edge75" class="edge">
+<title>infection&#45;&gt;foot_care</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-146.85C1680.75,-146.85 1696.08,-146.85 1696.08,-146.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-152.1 1711.08,-146.85 1696.08,-141.6 1696.08,-152.1"/>
+</g>
+<!-- arterial_stenosis -->
+<g id="node41" class="node">
+<title>arterial_stenosis</title>
+<path fill="none" stroke="black" d="M654.5,-828.85C654.5,-828.85 534.5,-828.85 534.5,-828.85 528.5,-828.85 522.5,-822.85 522.5,-816.85 522.5,-816.85 522.5,-768.85 522.5,-768.85 522.5,-762.85 528.5,-756.85 534.5,-756.85 534.5,-756.85 654.5,-756.85 654.5,-756.85 660.5,-756.85 666.5,-762.85 666.5,-768.85 666.5,-768.85 666.5,-816.85 666.5,-816.85 666.5,-822.85 660.5,-828.85 654.5,-828.85"/>
+<text xml:space="preserve" text-anchor="middle" x="594.5" y="-785.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">動脈狭窄</text>
+</g>
+<!-- blood_flow_decrease -->
+<g id="node47" class="node">
+<title>blood_flow_decrease</title>
+<path fill="none" stroke="black" d="M992.5,-673.85C992.5,-673.85 872.5,-673.85 872.5,-673.85 866.5,-673.85 860.5,-667.85 860.5,-661.85 860.5,-661.85 860.5,-613.85 860.5,-613.85 860.5,-607.85 866.5,-601.85 872.5,-601.85 872.5,-601.85 992.5,-601.85 992.5,-601.85 998.5,-601.85 1004.5,-607.85 1004.5,-613.85 1004.5,-613.85 1004.5,-661.85 1004.5,-661.85 1004.5,-667.85 998.5,-673.85 992.5,-673.85"/>
+<text xml:space="preserve" text-anchor="middle" x="932.5" y="-630.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">血流低下</text>
+</g>
+<!-- arterial_stenosis&#45;&gt;blood_flow_decrease -->
+<g id="edge58" class="edge">
+<title>arterial_stenosis&#45;&gt;blood_flow_decrease</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M666.59,-770.18C765.86,-770.18 932.5,-770.18 932.5,-770.18 932.5,-770.18 932.5,-691.13 932.5,-691.13"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="937.75,-691.13 932.5,-676.13 927.25,-691.13 937.75,-691.13"/>
+</g>
+<!-- revascularization -->
+<g id="node42" class="node">
+<title>revascularization</title>
+<path fill="none" stroke="black" d="M485.5,-740.85C485.5,-740.85 365.5,-740.85 365.5,-740.85 359.5,-740.85 353.5,-734.85 353.5,-728.85 353.5,-728.85 353.5,-680.85 353.5,-680.85 353.5,-674.85 359.5,-668.85 365.5,-668.85 365.5,-668.85 485.5,-668.85 485.5,-668.85 491.5,-668.85 497.5,-674.85 497.5,-680.85 497.5,-680.85 497.5,-728.85 497.5,-728.85 497.5,-734.85 491.5,-740.85 485.5,-740.85"/>
+<text xml:space="preserve" text-anchor="middle" x="425.5" y="-697.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">血行再建術</text>
+</g>
+<!-- swallowing_disorder&#45;&gt;aspiration -->
+<g id="edge50" class="edge">
+<title>swallowing_disorder&#45;&gt;aspiration</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.79,-1205.85C1784.06,-1205.85 1961.5,-1205.85 1961.5,-1205.85 1961.5,-1205.85 1961.5,-1300.53 1961.5,-1300.53"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1956.25,-1300.53 1961.5,-1315.53 1966.75,-1300.53 1956.25,-1300.53"/>
+</g>
+<!-- exercise_intolerance -->
+<g id="node45" class="node">
+<title>exercise_intolerance</title>
+<path fill="none" stroke="black" d="M2190.5,-803.85C2190.5,-803.85 2070.5,-803.85 2070.5,-803.85 2064.5,-803.85 2058.5,-797.85 2058.5,-791.85 2058.5,-791.85 2058.5,-743.85 2058.5,-743.85 2058.5,-737.85 2064.5,-731.85 2070.5,-731.85 2070.5,-731.85 2190.5,-731.85 2190.5,-731.85 2196.5,-731.85 2202.5,-737.85 2202.5,-743.85 2202.5,-743.85 2202.5,-791.85 2202.5,-791.85 2202.5,-797.85 2196.5,-803.85 2190.5,-803.85"/>
+<text xml:space="preserve" text-anchor="middle" x="2130.5" y="-760.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">運動耐容能低下</text>
+</g>
+<!-- exercise_intolerance&#45;&gt;adl -->
+<g id="edge28" class="edge">
+<title>exercise_intolerance&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2130.5,-731.79C2130.5,-709.91 2130.5,-686.18 2130.5,-686.18 2130.5,-686.18 2210.22,-686.18 2210.22,-686.18"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2210.22,-691.43 2225.22,-686.18 2210.22,-680.93 2210.22,-691.43"/>
+</g>
+<!-- blood_flow_decrease&#45;&gt;pulse_decrease -->
+<g id="edge71" class="edge">
+<title>blood_flow_decrease&#45;&gt;pulse_decrease</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1004.66,-662.85C1004.66,-662.85 1011.92,-662.85 1011.92,-662.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1011.92,-668.1 1026.92,-662.85 1011.92,-657.6 1011.92,-668.1"/>
+</g>
+<!-- blood_flow_decrease&#45;&gt;skin_pale -->
+<g id="edge72" class="edge">
+<title>blood_flow_decrease&#45;&gt;skin_pale</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1004.66,-612.85C1004.66,-612.85 1011.92,-612.85 1011.92,-612.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1011.92,-618.1 1026.92,-612.85 1011.92,-607.6 1011.92,-618.1"/>
+</g>
+<!-- blood_flow_decrease&#45;&gt;tissue_ischemia -->
+<g id="edge59" class="edge">
+<title>blood_flow_decrease&#45;&gt;tissue_ischemia</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M932.5,-601.54C932.5,-521.48 932.5,-336.85 932.5,-336.85 932.5,-336.85 1012.22,-336.85 1012.22,-336.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1012.22,-342.1 1027.22,-336.85 1012.22,-331.6 1012.22,-342.1"/>
+</g>
+<!-- dyspnea&#45;&gt;adl -->
+<g id="edge25" class="edge">
+<title>dyspnea&#45;&gt;adl</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M2033.59,-674.52C2033.59,-674.52 2210.11,-674.52 2210.11,-674.52"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2210.11,-679.77 2225.11,-674.52 2210.11,-669.27 2210.11,-679.77"/>
+</g>
+<!-- dyspnea&#45;&gt;fatigue -->
+<g id="edge26" class="edge">
+<title>dyspnea&#45;&gt;fatigue</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1997.5,-660.62C1997.5,-656.84 1997.5,-654.35 1997.5,-654.35 1997.5,-654.35 2041.04,-654.35 2041.04,-654.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2041.04,-659.6 2056.04,-654.35 2041.04,-649.1 2041.04,-659.6"/>
+</g>
+<!-- dyspnea&#45;&gt;exercise_intolerance -->
+<g id="edge27" class="edge">
+<title>dyspnea&#45;&gt;exercise_intolerance</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1961.5,-733.13C1961.5,-737.16 1961.5,-739.85 1961.5,-739.85 1961.5,-739.85 2041.22,-739.85 2041.22,-739.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2041.22,-745.1 2056.22,-739.85 2041.22,-734.6 2041.22,-745.1"/>
+</g>
+<!-- atherosclerosis -->
+<g id="node49" class="node">
+<title>atherosclerosis</title>
+<path fill="none" stroke="black" d="M485.5,-938.85C485.5,-938.85 365.5,-938.85 365.5,-938.85 359.5,-938.85 353.5,-932.85 353.5,-926.85 353.5,-926.85 353.5,-878.85 353.5,-878.85 353.5,-872.85 359.5,-866.85 365.5,-866.85 365.5,-866.85 485.5,-866.85 485.5,-866.85 491.5,-866.85 497.5,-872.85 497.5,-878.85 497.5,-878.85 497.5,-926.85 497.5,-926.85 497.5,-932.85 491.5,-938.85 485.5,-938.85"/>
+<text xml:space="preserve" text-anchor="middle" x="425.5" y="-895.12" font-family="Tsukushi A Round Gothic Bold" font-size="18.00">動脈硬化</text>
+</g>
+<!-- atherosclerosis&#45;&gt;plaque -->
+<g id="edge6" class="edge">
+<title>atherosclerosis&#45;&gt;plaque</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M497.92,-926.18C552.68,-926.18 618.5,-926.18 618.5,-926.18 618.5,-926.18 618.5,-927.34 618.5,-927.34"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="613.25,-920.6 618.5,-935.6 623.75,-920.6 613.25,-920.6"/>
+</g>
+<!-- atherosclerosis&#45;&gt;cerebral_occlusion -->
+<g id="edge7" class="edge">
+<title>atherosclerosis&#45;&gt;cerebral_occlusion</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M497.84,-914.52C497.84,-914.52 1012.05,-914.52 1012.05,-914.52"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1012.05,-919.77 1027.05,-914.52 1012.05,-909.27 1012.05,-919.77"/>
+</g>
+<!-- atherosclerosis&#45;&gt;arterial_stenosis -->
+<g id="edge57" class="edge">
+<title>atherosclerosis&#45;&gt;arterial_stenosis</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M498,-874.85C534.25,-874.85 570.5,-874.85 570.5,-874.85 570.5,-874.85 570.5,-846.17 570.5,-846.17"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="575.75,-846.17 570.5,-831.17 565.25,-846.17 575.75,-846.17"/>
+</g>
+<!-- anemia&#45;&gt;fatigue -->
 <g id="edge3" class="edge">
-<title>alveolar_collapse&#45;&gt;atelectasis</title>
-<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M482.5,-183.64C518.75,-183.64 555,-183.64 555,-183.64 555,-183.64 555,-192.66 555,-192.66"/>
-<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="549.75,-192.66 555,-207.66 560.25,-192.66 549.75,-192.66"/>
+<title>anemia&#45;&gt;fatigue</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.82,-406.85C1958.99,-406.85 2130.5,-406.85 2130.5,-406.85 2130.5,-406.85 2130.5,-573.4 2130.5,-573.4"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="2125.25,-573.4 2130.5,-588.4 2135.75,-573.4 2125.25,-573.4"/>
+</g>
+<!-- anemia&#45;&gt;dyspnea -->
+<g id="edge56" class="edge">
+<title>anemia&#45;&gt;dyspnea</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.85,-414.85C1906.39,-414.85 1961.5,-414.85 1961.5,-414.85 1961.5,-414.85 1961.5,-643.44 1961.5,-643.44"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1956.25,-643.44 1961.5,-658.44 1966.75,-643.44 1956.25,-643.44"/>
+</g>
+<!-- anaerobic&#45;&gt;lactic_acidosis -->
+<g id="edge2" class="edge">
+<title>anaerobic&#45;&gt;lactic_acidosis</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1680.75,-1566.35C1680.75,-1566.35 1696.08,-1566.35 1696.08,-1566.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1696.08,-1571.6 1711.08,-1566.35 1696.08,-1561.1 1696.08,-1571.6"/>
+</g>
+<!-- aso&#45;&gt;antiplatelet -->
+<g id="edge74" class="edge">
+<title>aso&#45;&gt;antiplatelet</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M328.97,-803.85C328.97,-803.85 335.96,-803.85 335.96,-803.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="335.96,-809.1 350.96,-803.85 335.96,-798.6 335.96,-809.1"/>
+</g>
+<!-- aso&#45;&gt;revascularization -->
+<g id="edge73" class="edge">
+<title>aso&#45;&gt;revascularization</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M248.5,-767.55C248.5,-739.29 248.5,-704.85 248.5,-704.85 248.5,-704.85 336.13,-704.85 336.13,-704.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="336.13,-710.1 351.13,-704.85 336.13,-699.6 336.13,-710.1"/>
+</g>
+<!-- aso&#45;&gt;atherosclerosis -->
+<g id="edge76" class="edge">
+<title>aso&#45;&gt;atherosclerosis</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M248.5,-840.15C248.5,-868.41 248.5,-902.85 248.5,-902.85 248.5,-902.85 336.13,-902.85 336.13,-902.85"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="336.13,-908.1 351.13,-902.85 336.13,-897.6 336.13,-908.1"/>
+</g>
+<!-- vomiting&#45;&gt;aspiration -->
+<g id="edge55" class="edge">
+<title>vomiting&#45;&gt;aspiration</title>
+<path fill="none" stroke="#7f7f7f" stroke-width="1.4" d="M1857.85,-1371.35C1857.85,-1371.35 1872.03,-1371.35 1872.03,-1371.35"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" stroke-width="1.4" points="1872.03,-1376.6 1887.03,-1371.35 1872.03,-1366.1 1872.03,-1376.6"/>
 </g>
 </g>
 </svg>

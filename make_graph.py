@@ -15,7 +15,7 @@ disease_list = [
     'sepsis', 'arrhythmia', 'stroke', 'gastric_cancer', 'colon_cancer', 
     'femoral_neck_fracture', 'dm', 'liver_cirrhosis', 'chronic_kidney_disease', 
     'ileus', 'prostate_cancer', 'parkinsons_disease', 'leukemia', 'schizophrenia',
-    'kawasaki_disease'
+    'kawasaki_disease','aso'
 ]
 
 # -------------------
@@ -41,7 +41,8 @@ MAX_DEPTH_MAP = {
     'parkinsons_disease': 8,
     'leukemia': 6,
     'schizophrenia': 6,
-    'kawasaki_disease': 7
+    'kawasaki_disease': 7,
+    'aso': 7
 }
 
 # -------------------
